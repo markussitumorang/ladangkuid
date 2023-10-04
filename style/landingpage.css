@@ -1,0 +1,312 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header - Navigation */
+.desktop-nav{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--light-color);
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    padding-right: 0;
+    
+}
+.desktop-nav .menu-items{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+    margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+    margin-right:0;
+    font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+    text-decoration:none;
+    color: var(--black-color);
+    font-size: 24px;
+    font-weight: medium;
+}
+
+a.btn-login {
+    border-radius: 30px;
+    border: 2px solid #4B7D0E;
+    padding: 10px;
+}
+/* size box */
+.sizebox {
+    display: inline-flex;
+height: 98px;
+flex-direction: column;
+align-items: center;
+gap: 98px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Hero Section */
+
+.hero-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero-container .left p{
+    font-size: 25px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.hero-container .left h1{
+    font-size: 56px;
+   
+}
+
+.hero-container .left .btn-section{
+    display: flex;
+    width: 500px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 36px;
+}
+.left .btn-section .btn-green{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    background: #4B7D0E;
+    color: #FFF;
+
+/* Heading 2 */
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 31.25px */
+text-transform: capitalize;
+text-decoration: none;
+}
+
+.left .btn-section .btn{
+    display: flex;
+padding: 6px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 11px;
+border: 3px solid #4B7D0E;
+color: #181717;
+
+/* Heading 2 */
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 31.25px */
+text-transform: capitalize;
+text-decoration: none;
+}
+
+.partner{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 45px;
+}
+/* Stakeholder  */
+.partner .stakeholder {
+display: flex;
+width: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+text-align: center;
+}
+.partner .stakeholder p{
+    color: #555;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.partner .stakeholder h1{
+    color: #181717;
+text-align: center;
+
+/* Heading 1 */
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.sponsor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+/* tentang kami */
+
+.tentang-kami{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 45px;
+
+}
+.tentang-kami .header-text {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    }
+    .tentang-kami .header-text p{
+        color: #555;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    .tentang-kami .header-text h1{
+        color: #181717;
+    text-align: center;
+    }
+    .tentang-kami .gambar-panjang{
+    width: auto;
+    height: 411px;
+    background: url(/img/pemandangan.png), lightgray 50% / cover no-repeat;
+    }
+.tentang-kami .lebih-lengkap{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    flex-direction: row;
+}
+.tentangkami .lebih-lengkap .kiri {
+    width: 639px;
+}
+.tentangkami .lebih-lengkap .kiri p{
+    color: #181717;
+
+/* Heading 2 */
+font-family: Poppins;
+
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 31.25px */
+text-transform: capitalize;
+}
+
+.tentang-kami .lebih-lengkap .kanan{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 36px;
+}
+.tentang-kami .lebih-lengkap .kanan img{
+width: 659px;
+height: 290px;
+}
+
+/* Fitur Kami */
+.fitur-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+}
+.fitur-container .header-text-container{
+    display: flex;
+width: 1318px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.fitur-container .header-text-fitur p{
+    color: #555;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.fitur-container .header-text-fitur a{
+    color: #181717;
+
+/* Heading 1 */
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
