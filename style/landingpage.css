@@ -515,6 +515,129 @@ flex-shrink: 0;
         background: white;
         margin: 0 auto; /* Center the line horizontally */
  }
-      
-  
+
+ .footer-bottom{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    justify-content: space-between;
+    
+ }
+
+ .footer-content-1 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+ }
+ .footer-content-1 p{
+    width: 534px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+ }
+
+ .footer-content-2 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+ }
+
+ .footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+ }
+
+ .footer-links li {
+   
+    list-style: none;    
+
+ }
+ .footer-links li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+ }
+
+ .footer-content-3 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+ }
+ .footer-content-3 p{
+    width: 371px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+ }
+ .footer-content-3 .media-sosials{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+   
+ }
+ .footer-content-3 .media-sosials li a{
+    padding: 10px;
+    align-items: flex-start;
+ }
+.footer-content-3 .media-sosials li {
+list-style: none;
+
+}
+.copyright{
+    display: flex;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
   
