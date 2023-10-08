@@ -45,7 +45,7 @@ body{
     margin: 15px 0 10px;
 }
 
-.container button{
+/* .container button{
     background-color: #512da8;
     color: #fff;
     font-size: 12px;
@@ -57,7 +57,7 @@ body{
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
-}
+} */
 
 .container button.hidden{
     background-color: transparent;
@@ -95,25 +95,28 @@ body{
 .sign-in{
     left: 0;
     width: 50%;
-    z-index: 2;
-}
-
-.container.active .sign-in{
-    transform: translateX(100%);
-}
-
-.sign-up{
-    left: 0;
-    width: 50%;
     opacity: 0;
     z-index: 1;
 }
 
-.container.active .sign-up{
+.container.active .sign-in{
+  
     transform: translateX(100%);
     opacity: 1;
     z-index: 5;
     animation: move 0.6s;
+}
+
+.sign-up{
+    
+
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.container.active .sign-up{
+    transform: translateX(100%);
 }
 
 @keyframes move{
@@ -125,21 +128,6 @@ body{
         opacity: 1;
         z-index: 5;
     }
-}
-
-.social-icons{
-    margin: 20px 0;
-}
-
-.social-icons a{
-    border: 1px solid #ccc;
-    border-radius: 20%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 3px;
-    width: 40px;
-    height: 40px;
 }
 
 .toggle-container{
@@ -175,7 +163,7 @@ body{
     transform: translateX(50%);
 }
 
-.toggle-panel{
+/* .toggle-panel{
     position: absolute;
     width: 50%;
     height: 100%;
@@ -188,9 +176,9 @@ body{
     top: 0;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
-}
+} */
 
-.toggle-left{
+/* .toggle-left{
     transform: translateX(-200%);
 }
 
@@ -205,4 +193,291 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+} */
+
+/* Formulir Register */
+
+.form-register{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 42px;
+}
+
+.form-register h1{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 60px */
+letter-spacing: -0.76px;
+}
+
+.form-daftar{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+
+.form-daftar h1{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 37.5px */
+text-transform: capitalize;
+}
+
+.form-daftar-list{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 13px;
+}
+
+.daftar-container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 9px;
+}
+
+.daftar-container h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 31.5px */
+    text-transform: capitalize;
+}
+
+.daftar-container input{
+    width: 484px;
+height: 44px;
+border-radius: 8px;
+border: 2px solid #BFBFBF;
+background: #F7F7F7;
+
+}
+
+.daftar-container .password-input{
+    position: relative;
+   
+    align-items: center;
+}
+
+.password-input img{
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+}
+
+.password-input input{
+    padding-right: 30px;
+}
+
+.btn-daftar{
+    width: 484.089px;
+height: 43.306px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #4B7D0E;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 39px */
+letter-spacing: -0.494px;
+text-transform: uppercase;
+border: 1px solid transparent;
+cursor: pointer;
+}
+
+.punya-akun{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+.punya-akun h3{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+text-transform: capitalize;
+}
+
+.punya-akun a{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+/* formulir login */
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    
+}
+
+.form-login .logo-login img{
+width: 348px;
+height: 72px;
+margin-right: 75px;
+
+
+}
+
+.formulir-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+}
+
+.user-pass-login{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 23px;
+}
+
+.user-pass-login h1{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 60px */
+letter-spacing: -0.76px;
+}
+
+.user-pass-login h3{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 37.5px */
+letter-spacing: -0.475px;
+text-transform: capitalize;
+}
+
+.user-pass-login input{
+    width: 469px;
+height: 56px;
+border-radius: 8px;
+border: 2px solid #BFBFBF;
+opacity: 0.7;
+background: #F7F7F7;
+}
+
+.user-pass-login .password-input-login{
+    position: relative;
+   
+    align-items: center;
+}
+
+.password-input-login img{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.password-input-login input{
+    padding-right: 30px;
+}
+
+.reminder-log {
+    display: flex;
+    align-items: center; /* Mengganti align-items ke center */
+    justify-content: space-between; /* Mengganti gap dengan justify-content */
+    width: 469px;
+  }
+  
+  .reminder-log .ingat-akun {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ingat-akun label {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.38px;
+    text-transform: capitalize;
+    width: 200px;
+  }
+
+  .ingat-akun input{
+    width: 20px;
+height: 20px;
+fill: #4B7D0E;
+  }
+  
+
+.btn-login{
+    width: 469px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #4B7D0E;
+cursor: pointer;
+}
+.btn-login-page .btn-login a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 39px */
+    letter-spacing: -0.494px;
+    text-transform: uppercase;
+}
+
+.form-login a{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: -0.38px;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.form-login p{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+letter-spacing: -0.38px;
+text-transform: capitalize;
 }

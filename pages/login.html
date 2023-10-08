@@ -15,50 +15,109 @@
 </head>
 <body>
     <div class="container" id="container">
-        <div class="form-container sign-up">
-            <form>
-                <h1>Create Account</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
-            </form>
-        </div>
         <div class="form-container sign-in">
             <form>
-                <h1>Sign In</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <div class="form-login">
+                    <div class="logo-login">
+                        <img src="/icon/Logo.png" alt="">
+                    </div>
+                    <div class="formulir-login">
+
+                        <div class="user-pass-login">
+                            <h1>MASUK</h1>
+                            <h3>Silahkan Masuk Ke Akun Anda.</h3>
+                            <input type="text" placeholder="Username">
+                        
+                            <div class="password-input-login">
+                            <img src="/icon/eye.png" alt="">
+                            <input type="password" placeholder="Password">
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                <div class="reminder-log">
+                    <div class="ingat-akun">
+                        <input type="checkbox" id="ingatAkun" name="ingatAkun" value="ya">
+                        <label for="ingatAkun">Biarkan Saya Masuk</label>
+                    </div>
+                
+                    <a href="#">Lupa Password</a>
                 </div>
-                <span>or use your email password</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="#">Forget Your Password?</a>
-                <button>Sign In</button>
+                
+
+                <div class="btn-login-page">
+                    <button class="btn-login">
+                        <a href="/index.html">Login</a>
+                      </button>
+                </div>
+                
+                <p>Belum Punya Akun ? <a class="hidden" id="login"> Daftar Sekarang</a>
+                </p>
+                </div>
+                
+            </form>
+        </div>
+        <div class="form-container sign-up">
+            <form>
+                <div class="form-register">
+                    <h1>BUAT AKUN</h1>
+                    <div class="form-daftar">
+                        <h1>Silahkan Daftar Akun Anda</h1>
+
+                        <div class="form-daftar-list">
+                            <div class="daftar-container">
+                                <h2>Nama Lengkap</h2>
+                            <input type="text" placeholder="Masukkan Nama Lengkap">
+                            </div>
+                            <div class="daftar-container">
+                                <h2>Email</h2>
+                            <input type="email" placeholder="Email">
+                            </div>
+                            <div class="daftar-container">
+                                <h2>Username</h2>
+                                <input type="text" placeholder="Masukkan Username">
+                            </div>
+                            <div class="daftar-container">
+                                <h2>Nomor Hp</h2>
+                            <input type="text" placeholder="Masukkan Nomor Hp">
+                            </div>
+                            <div class="daftar-container">
+                                <div class="password-input">
+                                
+                                    <h2>Password</h2>
+                                    <img src="/icon/eye.png" alt="">
+                                    <input type="password" placeholder="Masukkan Password">
+                               
+                                </div>
+                            </div>
+                            <div class="daftar-container">
+                                
+                            <div class="password-input">
+                                
+                                <h2>Re-Password</h2>
+                                <img src="/icon/eye.png" alt="">
+                                <input type="password" placeholder="Masukkan Password">
+                               
+                            </div>
+                            </div>
+                            
+                        </div>
+                            <button class="btn-daftar" id="register1">Daftar</button>
+                        <div class="punya-akun">
+                            <h3>Sudah Punya Akun? <a class="hidden" id="register">Masuk</a></h3>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+              
+              
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
-                </div>
+                
             </div>
         </div>
     </div>
