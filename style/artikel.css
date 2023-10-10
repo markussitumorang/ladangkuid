@@ -1,0 +1,727 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--light-color);
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    padding-right: 400;
+    
+}
+.desktop-nav .menu-items{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+    margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+    margin-right:0;
+    font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+    text-decoration:none;
+    color: var(--black-color);
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.btn-user img {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+.artikel * {
+  box-sizing: border-box;
+}
+.artikel {
+  background: #ffffff;
+  width: 1536px;
+  height: 2110px;
+  position: relative;
+  overflow: hidden;
+}
+.fotoartikel {
+  width: 1640px;
+  height: 441px;
+  position: absolute;
+  left: 0px;
+  top: 107px;
+}
+.kotak-pencarian {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 11px 25px 11px 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 789px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 250px;
+  top: 355px;
+  overflow: hidden;
+}
+.cari {
+  color: #7f807b;
+  text-align: center;
+  font: 400 25px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  border-radius: 4px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.rekomendasi-artikel {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/0px "Poppins", sans-serif;
+  position: absolute;
+  left: 110px;
+  top: 576px;
+  width: 1316px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-17 {
+  width: 269px;
+  height: 53px;
+  position: absolute;
+  left: 62px;
+  top: 27px;
+}
+.artikel01 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 110px;
+  top: 671px;
+}
+.frame-2355 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.artikel-1 {
+  flex-shrink: 0;
+  width: 396px;
+  height: 408px;
+  position: static;
+}
+.bg {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-2352 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 185px;
+  position: absolute;
+  left: 0px;
+  top: 223px;
+}
+.cegah-dan-atasi-penyekit-gabah-busuk {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padi-merupakan-salah-satu-komoditas-tanaman-pangan-yang-berfungsi-sebagai-sumber-karbohidrat-utama-masyarakat-indonesia {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.baca-selengkapnya {
+  color: #4b7d0e;
+  text-align: center;
+  font: 600 14px/116% "Poppins", sans-serif;
+  position: relative;
+  width: 190px;
+  height: 18px;
+
+}
+.baca-selengkapnya a{
+text-decoration: none ;
+color: #4b7d0e;
+}
+.fotoartikel1 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 1px;
+  top: -222px;
+}
+.bg2 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 462px;
+  top: 0px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-23522 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 185px;
+  position: absolute;
+  left: 461px;
+  top: 223px;
+}
+.pencegahan-dan-pengendalian-penyakit-kresek {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padi-merupakan-tanaman-pangan-terpenting-yang-banyak-dibudidayakan-karena-sebagai-makanan-pokok-masyarakat-indonesia {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel2 {
+  border-radius: 8px;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 462px;
+  top: 1px;
+}
+.bg3 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 923px;
+  top: 0px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-23523 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 185px;
+  position: absolute;
+  left: 922px;
+  top: 223px;
+}
+.herbisida-pembasmi-rumput-liar-handal-dan-tahan-hujan {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gulma-merupakan-salah-satu-organisme-pengganggu-tanaman-opt-yang-dapat-merugikan-kegiatan-budidaya-petani {
+  color: #000000;
+  text-align: center;
+  font: 400 18px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel3 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 922px;
+  top: 1px;
+}
+.frame-2356 {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2353 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.amankan-tanaman-padi-dari-penyakit-batang-dan-pelepah-busuk {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  width: 308px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padi-merupakan-komoditi-penting-yang-mampu-menunjang-perekonomian-negara-bahan-pokok-makanan-yang-disebut-beras {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel4 {
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.kendalikan-gulma-jajagoan-dengan-herbisida {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kehadiran-gulma-di-lahan-pertanian-adalah-masalah-yang-serius-karena-bisa-menurunkan-produksi-dari-tanaman-yang-dibudidayakan {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel5 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 462px;
+  top: 0px;
+}
+.produksi-padi-berlimpah-ri-memasuki-panen-raya {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panen-raya-padi-sudah-mulai-terlihat-di-beberapa-wilayah-di-indonesia-menurut-data-kerangka-sampling-area-ksa-bps-prediksi-luas-panen-april-dan-mei-lebih-luas-dibandingkan-bulan-maret {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel6 {
+  border-radius: 8px;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 924px;
+  top: 0px;
+}
+.artikel-12 {
+  flex-shrink: 0;
+  width: 396px;
+  height: 416px;
+  position: static;
+}
+.bg4 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 1px;
+  top: 8px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-23524 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  position: absolute;
+  left: 0px;
+  top: 231px;
+}
+.indonesia-negara-darurat-impor-pangan {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dalam-11-tahun-terakhir-rakyat-indonesia-telah-menghabiskan-us-84-8-miliar-atau-setara-rp-1-272-triliun-untuk-hanya-berbelanja-enam-dari-sembilan-barang-kebutuhan-pokok-sembako-beras {
+  color: #000000;
+  text-align: center;
+  font: 400 18px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel7 {
+  border-radius: 8px;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.artikel-13 {
+  flex-shrink: 0;
+  width: 396.5px;
+  height: 408px;
+  position: static;
+}
+.bg5 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 462px;
+  top: 4px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.gambar {
+  position: absolute;
+  left: 461px;
+  top: 4px;
+  overflow: visible;
+}
+.frame-23525 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  position: absolute;
+  left: 461px;
+  top: 227px;
+}
+.dpr-beri-sinyal-buka-impor-jagung-ada-apa {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ketua-komisi-iv-dpr-ri-sudin-meminta-kepala-badan-pangan-nasional-bapanas-arief-prasetyo-adi-dan-direktur-utama-perum-bulog-budi-waseso-agar-tidak-kebablasan-melalukan-importasi-gandum {
+  color: #000000;
+  text-align: center;
+  font: 400 18px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel8 {
+  border-radius: 8px;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 924px;
+  top: 0px;
+}
+.artikel-14 {
+  flex-shrink: 0;
+  width: 396.5px;
+  height: 416px;
+  position: static;
+}
+.bg6 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 923.5px;
+  top: 8px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.gambar2 {
+  position: absolute;
+  left: 922.5px;
+  top: 8px;
+  overflow: visible;
+}
+.frame-23526 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  position: absolute;
+  left: 922.5px;
+  top: 231px;
+}
+.kementan-berhasil-surplus-padi-dan-jagung {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kementerian-pertanian-kementan-berhasil-mencapai-target-peningkatan-produksi-padi-dan-jagung-yang-dicanangkan-pemerintah {
+  color: #000000;
+  text-align: center;
+  font: 400 18px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel9 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 463px;
+  top: 4px;
+}
+
+
+
+/* Footer */
+ .footer-container {
+    width: 100%;
+    margin: 0 auto;
+    flex-shrink: 0;
+    background: #4B7D0E;
+ }
+
+ .footer-top{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    width: 100%;
+    padding-right: 0; 
+ }
+
+ .footer-top .menu-footer-top{
+    display: flex;
+    list-style-type: none;
+ }
+
+ .footer-top .menu-footer-top li{
+    margin: 0 22px;
+ }
+
+ .logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+ }
+  
+.line{
+
+        width: 1410.046px;
+        height: 1px;
+        background: white;
+        margin: 0 auto; /* Center the line horizontally */
+ }
+
+ .footer-bottom{
+    display: flex;
+    flex-direction: row;
+    padding:65px;
+    justify-content: space-between;
+    
+ }
+
+ .footer-content-1 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+ }
+ .footer-content-1 p{
+    width: 534px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+ }
+
+ .footer-content-2 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+ }
+
+ .footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+ }
+
+ .footer-links li {
+   
+    list-style: none;    
+
+ }
+ .footer-links li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+ }
+
+ .footer-content-3 h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+ }
+ .footer-content-3 p{
+    width: 371px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+ }
+
+.copyright{
+    display: flex;
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  

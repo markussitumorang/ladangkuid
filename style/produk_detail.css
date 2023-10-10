@@ -1,0 +1,1445 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding-right: 400;
+  
+}
+.desktop-nav .menu-items{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+  margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+  margin-right:0;
+  font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+  text-decoration:none;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.btn-user img {
+width: 36px;
+height: 36px;
+flex-shrink: 0;
+stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+
+.halaman-detail-produk * {
+  box-sizing: border-box;
+}
+.halaman-detail-produk {
+  background: #ffffff;
+  width: 100%;
+  height: 2950px;
+  padding-right: 0;
+  position: center;
+  overflow: hidden;
+}
+.foto-detail-produk {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 379px;
+  height: 433px;
+  position: absolute;
+  left: 61px;
+  top: 240px;
+}
+.padi-unggul-sr-super-genjah-terbaru-biji-padi-unggul-sr {
+  color: #000000;
+  text-align: left;
+  font: 600 18px "Inter", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 213px;
+  width: 540px;
+}
+.rp-65-000 {
+  color: #000000;
+  text-align: left;
+  font: 700 22px "Inter", sans-serif;
+  position: absolute;
+  left: 524px;
+  top: 280px;
+  width: 259px;
+}
+._4-0 {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 249px;
+}
+.beliproduk {
+  background: #4b7d0e;
+  border-radius: 8px;
+  width: 198px;
+  height: 58px;
+  position: absolute;
+  left: 548px;
+  top: 643px;
+}
+.produk-sejenis {
+  color: #000000;
+  text-align: center;
+  font: 700 18px "Inter", sans-serif;
+  position: absolute;
+  left: 1320px;
+  top: 164px;
+}
+.produk-sejenis2 {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 249px;
+  height: 156px;
+  position: absolute;
+  left: 1230px;
+  top: 210px;
+}
+.kotak-ijo {
+  background: #4b7d0e;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 251px;
+  height: 156px;
+  position: relative;
+}
+.fotoproduk2 {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 85px;
+  height: 130px;
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.black-madras-rendah-gula {
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px "Inter", sans-serif;
+  position: absolute;
+  left: 97px;
+  top: 28px;
+  width: 153px;
+}
+.rp-65-0002 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 96px;
+  top: 103px;
+  width: 153px;
+}
+.produk-sejenis3 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1230px;
+  top: 388px;
+}
+.fotoproduk3 {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 85px;
+  height: 130px;
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.produk-bibit-padi-rajasa {
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px "Inter", sans-serif;
+  position: absolute;
+  left: 97px;
+  top: 28px;
+  width: 153px;
+}
+.produk-sejenis4 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1230px;
+  top: 568px;
+}
+.fotoproduk4 {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 85px;
+  height: 130px;
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.padi-unggul-if-16 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px "Inter", sans-serif;
+  position: absolute;
+  left: 96px;
+  top: 32px;
+  width: 153px;
+}
+.rp-65-0003 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 109px;
+  width: 153px;
+}
+.beli {
+  color: #ffffff;
+  text-align: center;
+  font: 700 25px "Inter", sans-serif;
+  position: absolute;
+  left: 624px;
+  top: 657px;
+}
+.keranjang {
+  position: absolute;
+  inset: 0;
+}
+.kotak-kranjang {
+  background: #d9d9d9;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  width: 198px;
+  height: 58px;
+  position: absolute;
+  left: 770px;
+  top: 643px;
+}
+.keranjang2 {
+  color: #181717;
+  text-align: center;
+  font: 700 25px "Inter", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 657px;
+}
+.bg-testimoni {
+  background: #f7f7f7;
+  width: 1550px;
+  height: 624px;
+  position: absolute;
+  left: 0px;
+  
+  top: 804px;
+}
+.review-pengguna {
+  color: #000000;
+  text-align: center;
+  font: 700 18px "Inter", sans-serif;
+  position: absolute;
+  left: 61px;
+  top: 866px;
+}
+.alat-elektronik-untuk-lahan-mu {
+  color: #000000;
+  text-align: left;
+  font: 700 18px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 61px;
+  top: 1475px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.kemasan-perkantong-1-kilogram-biji-padi-unggul-sr-super-genjah-terbaru-umur-tanaman-72-75-hst-tinggi-tanaman-90-95-cm-tekstur-nasi-pulen-potensi-hasil-10-12-ton-ha-anakan-30-40-batang-rumpun-biaya-produksi-minim-perwatan-mudah-toleran-terhadap-opt-dan-jamur {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/110% "Inter", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 362px;
+  width: 425px;
+}
+.deskripsi-produk {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/110% "Inter", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 329px;
+  width: 327px;
+}
+.bintang {
+  position: absolute;
+  left: 571px;
+  top: 247.56px;
+  overflow: visible;
+}
+.bintang2 {
+  position: absolute;
+  left: 606px;
+  top: 247.56px;
+  overflow: visible;
+}
+.bintang3 {
+  position: absolute;
+  left: 639px;
+  top: 247.56px;
+  overflow: visible;
+}
+.bintang4 {
+  position: absolute;
+  left: 670px;
+  top: 247.56px;
+  overflow: visible;
+}
+.frame-user-testi {
+  position: absolute;
+  inset: 0;
+}
+.fotoagus {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 2px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 71px;
+  top: 935px;
+}
+.frameagus {
+  background: #4b7d0e;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 464px;
+  height: 148px;
+  position: absolute;
+  left: 248px;
+  top: 937px;
+}
+.agus-67 {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 944px;
+  width: 443px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.harga-bersaing-kualitas-cover-bagus-sih-cmn-belum-di-tanam-pengemasan-bagus-banget-seller-kooperatif-banget-mudah-2-an-hasil-panen-sesuai-yang-di-harapkan {
+  color: #ffffff;
+  text-align: left;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 979px;
+  width: 443px;
+}
+.fotopakcun {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 2px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 71px;
+  top: 1170px;
+}
+.framepakcun {
+  background: #4b7d0e;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 464px;
+  height: 148px;
+  position: absolute;
+  left: 248px;
+  top: 1172px;
+}
+.pakcun {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 1179px;
+  width: 443px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.harga-normal-gk-bisa-ditawar-kualitas-gk-tau-bagus-pa-gk-krn-blm-ditanam-msh-berproses-semoga-sesuai-dgn-deskripsi-promosinya-pengemasan-bagus-rapi-ok {
+  color: #ffffff;
+  text-align: left;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 1214px;
+  width: 443px;
+}
+.fotowahyudi {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 2px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 749px;
+  top: 935px;
+}
+.framewahyudi {
+  background: #4b7d0e;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 464px;
+  height: 148px;
+  position: absolute;
+  left: 926px;
+  top: 935px;
+}
+.wahyudi {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 934px;
+  top: 953px;
+  width: 443px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.barang-sesuai-pesanan-tepat-waktu-respons-penjual-kemasan-bagus-pengiriman-tepat-waktu-pengantar-ramah-pokokx-sip-trims-senangnya-belanja-online {
+  color: #ffffff;
+  text-align: left;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 934px;
+  top: 988px;
+  width: 443px;
+}
+.fotosulastri {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 2px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 749px;
+  top: 1171px;
+}
+.framesulastri {
+  background: #4b7d0e;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 464px;
+  height: 148px;
+  position: absolute;
+  left: 926px;
+  top: 1173px;
+}
+.sulastri {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 934px;
+  top: 1180px;
+  width: 443px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.harga-murah-kualitas-belum-dicoba-pengemasan-baik-kemasan-asli-pabrik-saya-nyesal-kemarin-nggak-beli-disini-semua-semoga-makin-laris-dan-selalu-amanah {
+  color: #ffffff;
+  text-align: left;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 934px;
+  top: 1215px;
+  width: 443px;
+}
+
+.bibit-terbaik-untuk-lahan-terbaik {
+  color: #181717;
+  text-align: left;
+  font: 700 18px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 61px;
+  top: 2352px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-alat {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 751px;
+  position: absolute;
+  left: 127px;
+  top: 1541px;
+}
+.foto-produk {
+  flex-shrink: 0;
+  width: 1169px;
+  height: 355px;
+  position: static;
+}
+.foto-produk01 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.kotak-alat {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotopompa {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.pompa-elektrik {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 227px;
+}
+.rp-349-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 76px;
+  top: 259px;
+}
+.tombol {
+  flex-shrink: 0;
+  width: 192px;
+  height: 35px;
+  position: static;
+}
+.rectangle-269 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  height: 35px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+}
+.beli2 {
+  width: 96px;
+  height: 35px;
+  position: static;
+}
+.rectangle-270 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.beli3 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 56px;
+  top: 297px;
+}
+.keranjang3 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk02 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 309px;
+  top: 0px;
+}
+.kotak-tangki {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fototangki {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.tangki-sprayer {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 227px;
+}
+.rp-98-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 259px;
+}
+.rectangle-2702 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang4 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk03 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 618px;
+  top: 0px;
+}
+.kotak-paket {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotopaket {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.paket-pompa-v-3 {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 61px;
+  top: 227px;
+}
+.rp-256-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 77px;
+  top: 259px;
+}
+.rectangle-2692 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  height: 35px;
+  position: absolute;
+  left: 26px;
+  top: 291px;
+}
+.rectangle-2703 {
+  border-radius: 0px;
+  position: absolute;
+  left: 26px;
+  top: 291px;
+  overflow: visible;
+}
+.beli4 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 57px;
+  top: 297px;
+}
+.keranjang5 {
+  position: absolute;
+  left: 162px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk04 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 927px;
+  top: 0px;
+}
+.kotak-mesin {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotomesin {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.mesin-perontok-padi {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 227px;
+}
+.rp-3-150-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 71px;
+  top: 259px;
+}
+.rectangle-2704 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang6 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk05 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 396px;
+}
+.kotak-gabah {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotogabah {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.mesin-pemisah-gabah {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 227px;
+}
+.rp-2-000-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 69px;
+  top: 259px;
+}
+.rectangle-2705 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang7 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk06 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 309px;
+  top: 396px;
+}
+.kotak-tanam {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fototanam{
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.alat-tanam-jagung {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 227px;
+}
+.rp-219-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 259px;
+}
+.rectangle-2706 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang8 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk07 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 618px;
+  top: 396px;
+}
+.kotak-kelembapan {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotokelembapan{
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.pengukur-kelembapan {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 227px;
+}
+.rp-310-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 77px;
+  top: 259px;
+}
+.rectangle-2707 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang9 {
+  position: absolute;
+  left: 161px;
+  top: 297px;
+  overflow: visible;
+}
+.foto-produk08 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 927px;
+  top: 396px;
+}
+.kotak-kadar {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #066f16;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 242px;
+  height: 355px;
+  position: relative;
+}
+.fotokadar {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 178px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.pengukur-kadar-air {
+  color: #000000;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 227px;
+}
+.rp-179-000 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 259px;
+}
+.rectangle-2708 {
+  border-radius: 0px;
+  position: absolute;
+  left: 26px;
+  top: 291px;
+  overflow: visible;
+}
+.keranjang10 {
+  position: absolute;
+  left: 162px;
+  top: 297px;
+  overflow: visible;
+}
+.frame-bibit {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 652px);
+  top: 2417px;
+}
+.frame-benih1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kotak-benih1 {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 381px;
+  height: 328px;
+  position: relative;
+}
+.fotobenih1 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f2ee9d;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 357px;
+  height: 198px;
+  position: absolute;
+  left: 14px;
+  top: 12.64px;
+}
+.tobolkranjangbenih1 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  height: 35px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+}
+.tombolbelibenih1 {
+  border-radius: 0px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+  overflow: visible;
+}
+.beli5 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 120px;
+  top: 289.64px;
+}
+.keranjang11 {
+  position: absolute;
+  left: 224px;
+  top: 286.64px;
+  overflow: visible;
+}
+.benih-jagung-nk-7328 {
+  color: #343434;
+  text-align: center;
+  font: 700 15px "Inter", sans-serif;
+  position: absolute;
+  left: 109px;
+  top: 224px;
+}
+.rp-580-000 {
+  color: #343434;
+  text-align: center;
+  font: 600 15px "Inter", sans-serif;
+  position: absolute;
+  left: 139px;
+  top: 249px;
+}
+.frame-benih2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kotak-benih2 {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 381px;
+  height: 328px;
+  position: relative;
+}
+.fotobenih2 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f2ee9d;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 357px;
+  height: 198px;
+  position: absolute;
+  left: 14px;
+  top: 12.64px;
+}
+.tobolkranjangbenih2 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  height: 35px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+}
+.tombolbenih2 {
+  border-radius: 0px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+  overflow: visible;
+}
+.keranjang12 {
+  position: absolute;
+  left: 224px;
+  top: 286.64px;
+  overflow: visible;
+}
+.frame-benih3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kotak-benih3 {
+  background: #f2ee9d;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 381px;
+  height: 328px;
+  position: relative;
+}
+.fotobenih3 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f2ee9d;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 357px;
+  height: 198px;
+  position: absolute;
+  left: 14px;
+  top: 12.64px;
+}
+.tobolkranjangbenih3 {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 192px;
+  height: 35px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+}
+.tombolbelibenih3 {
+  border-radius: 0px;
+  position: absolute;
+  left: 88px;
+  top: 280.64px;
+  overflow: visible;
+}
+.keranjang13 {
+  position: absolute;
+  left: 224px;
+  top: 286.64px;
+  overflow: visible;
+}
+
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: #4B7D0E;
+}
+
+.footer-top{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  width: 100%;
+  padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+  margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.line{
+
+      width: 1410.046px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  padding:65px;
+  justify-content: space-between;
+  
+}
+
+.footer-content-1 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.footer-content-1 p{
+  width: 534px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+ 
+  list-style: none;    
+
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 290px;
+  
+}
+
+.footer-content-3 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.footer-content-3 p{
+  width: 371px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright{
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  

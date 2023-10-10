@@ -1,0 +1,1576 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding-right: 400;
+  
+}
+.desktop-nav .menu-items{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+  margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+  margin-right:0;
+  font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+  text-decoration:none;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.btn-user img {
+width: 36px;
+height: 36px;
+flex-shrink: 0;
+stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+.frame-all {
+   display: flex;
+   flex-direction: column;
+   gap: 98px;
+   align-items: center;
+   justify-content: flex-start;
+   position: absolute;
+   width: 100%;
+   top: 200px;
+ }
+ .frame-atas {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+   position: center;
+ }
+ .frame-foto1 {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+   position: center;
+ }
+ .foto1 {
+   flex-shrink: 0;
+   width: 705px;
+   height: 313px;
+   position: relative;
+ }
+ .frame-bulat-bulat {
+   display: flex;
+   flex-direction: row;
+   gap: 8px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-shrink: 0;
+   position: absolute;
+   left: 297px;
+   top: 268px;
+ }
+ .ellipse-1 {
+   background: #8e8d8d;
+   border-radius: 50%;
+   flex-shrink: 0;
+   width: 16px;
+   height: 16px;
+   position: relative;
+ }
+ .ellipse-2 {
+   background: #4d4d4d;
+   border-radius: 50%;
+   flex-shrink: 0;
+   width: 16px;
+   height: 16px;
+   position: relative;
+ }
+ .ellipse-3 {
+   background: #8e8d8d;
+   border-radius: 50%;
+   flex-shrink: 0;
+   width: 16px;
+   height: 16px;
+   position: relative;
+ }
+ .ellipse-4 {
+   background: #8e8d8d;
+   border-radius: 50%;
+   flex-shrink: 0;
+   width: 16px;
+   height: 16px;
+   position: relative;
+ }
+ .ellipse-5 {
+   background: #8e8d8d;
+   border-radius: 50%;
+   flex-shrink: 0;
+   width: 16px;
+   height: 16px;
+   position: relative;
+ }
+ .frame-katekori1 {
+   display: flex;
+   flex-direction: column;
+   gap: 19px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-shrink: 0;
+   position: relative;
+ }
+ .foto2 {
+   flex-shrink: 0;
+   width: 586px;
+   height: 147.11px;
+   position: relative;
+ }
+ .foto3 {
+   flex-shrink: 0;
+   width: 586px;
+   height: 147.11px;
+   position: relative;
+ }
+ .frame-kat {
+   background: #ffffff;
+   padding: 26px 197px 26px 197px;
+   display: flex;
+   flex-direction: column;
+   gap: 23px;
+   align-items: flex-start;
+   justify-content: center;
+   flex-shrink: 0;
+   width: 1316px;
+   position: relative;
+ }
+ .kategori {
+   color: #1e1e1e;
+   text-align: left;
+   font: 600 18px "Poppins", sans-serif;
+   text-transform: uppercase;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+ .frame-kotak {
+   display: flex;
+   flex-direction: row;
+   gap: 29px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-shrink: 0;
+   position: relative;
+ }
+ .kategori2 {
+   flex-shrink: 0;
+   width: 156.9px;
+   height: 182.89px;
+   position: static;
+ }
+ .alat-pertanian {
+   color: #1e1e1e;
+   text-align: center;
+   font: 400 15px "Poppins", sans-serif;
+   position: absolute;
+   left: 20.64px;
+   top: 148.24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ellipse-kotak1 {
+   background: #2d5200;
+   border-radius: 50%;
+   width: 86.63px;
+   height: 86.63px;
+   position: absolute;
+   left: 34.65px;
+   top: 37.54px;
+ }
+ .gamabar-kategori {
+   width: 74.12px;
+   height: 98.18px;
+   position: absolute;
+   left: 41.39px;
+   top: 25.99px;
+ }
+ .kotak1 {
+   border-style: solid;
+   border-color: #1e1e1e;
+   border-width: 2px;
+   width: 156.9px;
+   height: 182.89px;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+ }
+ .bibit {
+   color: #1e1e1e;
+   text-align: center;
+   font: 400 15px "Poppins", sans-serif;
+   position: absolute;
+   left: 246.54px;
+   top: 148.24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ellipse-kotak2 {
+   background: #2d5200;
+   border-radius: 50%;
+   width: 86.63px;
+   height: 86.63px;
+   position: absolute;
+   left: 220.56px;
+   top: 37.54px;
+ }
+ .gamabar-kategori1 {
+   width: 74.12px;
+   height: 98.18px;
+   position: absolute;
+   left: 227.29px;
+   top: 25.99px;
+ }
+ .kotak2 {
+   border-style: solid;
+   border-color: #1e1e1e;
+   border-width: 2px;
+   width: 156.9px;
+   height: 182.89px;
+   position: absolute;
+   left: 185.9px;
+   top: 0px;
+ }
+ .pengendali-hama {
+   color: #1e1e1e;
+   text-align: center;
+   font: 400 15px "Poppins", sans-serif;
+   position: absolute;
+   left: 382.44px;
+   top: 148.24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ellipse-kotak3 {
+   background: #2d5200;
+   border-radius: 50%;
+   width: 86.63px;
+   height: 86.63px;
+   position: absolute;
+   left: 406.46px;
+   top: 37.54px;
+ }
+ .gamabar-kategori2 {
+   width: 74.12px;
+   height: 98.18px;
+   position: absolute;
+   left: 413.2px;
+   top: 25.99px;
+ }
+ .kotak3 {
+   border-style: solid;
+   border-color: #1e1e1e;
+   border-width: 2px;
+   width: 156.9px;
+   height: 182.89px;
+   position: absolute;
+   left: 371.81px;
+   top: 0px;
+ }
+ .pupuk-organik {
+   color: #1e1e1e;
+   text-align: center;
+   font: 400 15px "Poppins", sans-serif;
+   text-transform: uppercase;
+   position: absolute;
+   left: 578.35px;
+   top: 148.24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ellipse-kotak4 {
+   background: #2d5200;
+   border-radius: 50%;
+   width: 86.63px;
+   height: 86.63px;
+   position: absolute;
+   left: 592.36px;
+   top: 37.54px;
+ }
+ .gamabar-kategori3 {
+   width: 74.12px;
+   height: 98.18px;
+   position: absolute;
+   left: 599.1px;
+   top: 25.99px;
+ }
+ .kotak4 {
+   border-style: solid;
+   border-color: #1e1e1e;
+   border-width: 2px;
+   width: 156.9px;
+   height: 182.89px;
+   position: absolute;
+   left: 557.71px;
+   top: 0px;
+ }
+ .pupuk-kimia {
+   color: #1e1e1e;
+   text-align: center;
+   font: 400 15px "Poppins", sans-serif;
+   text-transform: uppercase;
+   position: absolute;
+   left: 777.25px;
+   top: 148.24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .ellipse-kotak5 {
+   background: #2d5200;
+   border-radius: 50%;
+   width: 86.63px;
+   height: 86.63px;
+   position: absolute;
+   left: 778.26px;
+   top: 37.54px;
+ }
+ .gamabar-kategori4 {
+   width: 74.12px;
+   height: 98.18px;
+   position: absolute;
+   left: 785px;
+   top: 25.99px;
+ }
+ .kotak5 {
+   border-style: solid;
+   border-color: #1e1e1e;
+   border-width: 2px;
+   width: 156.9px;
+   height: 182.89px;
+   position: absolute;
+   left: 743.61px;
+   top: 0px;
+ }
+ .frame-rekomendasi {
+   background: #ffffff;
+   padding: 26px 73px 26px 73px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+   position: relative;
+ }
+ .rekomendasi-produk-untuk-mu {
+   color: #000000;
+   text-align: center;
+   font: 400 35px "Poppins", sans-serif;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .frame-kotak-rekomendasi {
+   display: flex;
+   flex-direction: column;
+   gap: 46px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-shrink: 0;
+   position: relative;
+ }
+ .foto-produk {
+   flex-shrink: 0;
+   width: 1169px;
+   height: 355px;
+   position: static;
+ }
+ .foto-produk01 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+ }
+ .garis-kotak-ijo {
+   background: #f2ee9d;
+   border-radius: 20px;
+   border-style: solid;
+   border-color: #066f16;
+   border-width: 2px;
+   flex-shrink: 0;
+   width: 242px;
+   height: 355px;
+   position: relative;
+ }
+ .foto {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .urea-50-kg-subsidi {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 227px;
+ }
+ .rp-595-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 62px;
+   top: 259px;
+ }
+ .tombol {
+   flex-shrink: 0;
+   width: 192px;
+   height: 35px;
+   position: static;
+ }
+ .kotak-kranjang {
+   background: #ffffff;
+   border-radius: 12px;
+   width: 192px;
+   height: 35px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+ }
+ .beli {
+   width: 96px;
+   height: 35px;
+   position: static;
+ }
+ .kotak-beli1 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .beli2 {
+   color: #ffffff;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 51px;
+   top: 315px;
+   text-decoration: none;
+ }
+
+ .beli2 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+ .keranjang {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk2 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 309px;
+   top: 0px;
+ }
+ .foto02 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .urea-petro {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 55px;
+   top: 227px;
+ }
+ .rp-375-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 62px;
+   top: 259px;
+ }
+ .kotak-beli2{
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang2 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk3 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 618px;
+   top: 0px;
+ }
+ .foto03 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .pupuk-kaltim {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 56px;
+   top: 227px;
+ }
+ .rp-675-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 62px;
+   top: 259px;
+ }
+ .kotak-beli3 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang3 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk4 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 927px;
+   top: 0px;
+ }
+ .foto04 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .tsp-mahkota {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 52px;
+   top: 227px;
+ }
+ .rp-600-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 61px;
+   top: 259px;
+ }
+ .kotak-beli4 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang4 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk5 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 0px;
+   top: 401px;
+ }
+ .foto05 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .tsp-sp-36-50-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 37px;
+   top: 227px;
+ }
+ .rp-250-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 61px;
+   top: 259px;
+ }
+ .kotak-beli5 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang5 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk6 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 309px;
+   top: 401px;
+ }
+ .foto06 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .tsp-46-50-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 44px;
+   top: 227px;
+ }
+ .rp-325-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 62px;
+   top: 259px;
+ }
+ .kotak-beli6 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang6 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk7 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 618px;
+   top: 401px;
+ }
+ .foto07 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .tsp-turbo-1-l {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 53px;
+   top: 227px;
+ }
+ .rp-65-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli7 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang7 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk8 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 927px;
+   top: 401px;
+ }
+ .foto08 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .kcl-mop-mahkota {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 29px;
+   top: 227px;
+ }
+ .rp-20-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli8 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang8 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk9 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 0px;
+   top: 802px;
+ }
+ .foto09 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .kcl-pertanian {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 40px;
+   top: 227px;
+ }
+ .kotak-beli9 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang9 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk10 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 309px;
+   top: 802px;
+ }
+ .foto10 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .kcl-pak-tani {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 60px;
+   top: 227px;
+ }
+ .rp-99-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli10 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang10 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk11 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 618px;
+   top: 802px;
+ }
+ .foto11 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .kcl-kujang-1-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 38px;
+   top: 227px;
+ }
+ .rp-19-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 69px;
+   top: 259px;
+ }
+ .kotak-beli11 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang11 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk12 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 927px;
+   top: 802px;
+ }
+ .foto12 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .big-ka-500-ml {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 48px;
+   top: 227px;
+ }
+ .rp-25-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli12 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang12 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk13 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 0px;
+   top: 1203px;
+ }
+ .foto13 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .produk-pertanian {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 20px;
+   top: 227px;
+ }
+ .rp-20-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 67px;
+   top: 259px;
+ }
+ .kotak-beli13 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang13 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk14 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 309px;
+   top: 1203px;
+ }
+ .foto14 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .infarm {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 89px;
+   top: 227px;
+ }
+ .rp-40-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 67px;
+   top: 259px;
+ }
+ .kotak-beli14 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang14 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk15 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 618px;
+   top: 1203px;
+ }
+ .foto15 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .nsb-poc-3-l {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 62px;
+   top: 227px;
+ }
+ .rp-165-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 63px;
+   top: 259px;
+ }
+ .kotak-beli15 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang15 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk16 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 927px;
+   top: 1203px;
+ }
+ .foto16 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .pupuk-organik-cdm-1-l {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 8px;
+   top: 227px;
+ }
+ .rp-45-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli16 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang16 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk17 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 0px;
+   top: 1604px;
+ }
+ .foto17 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .big-phospor-500-ml {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 18px;
+   top: 227px;
+ }
+ .rp-72-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli17 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang17 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk18 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 309px;
+   top: 1604px;
+ }
+ .foto18 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .mag-k-pak-tani-1-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 30px;
+   top: 227px;
+ }
+ .kotak-beli18 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang18 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk19 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 618px;
+   top: 1604px;
+ }
+ .foto19 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .meroke-sop-1-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 44px;
+   top: 227px;
+ }
+ .rp-28-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 68px;
+   top: 259px;
+ }
+ .kotak-beli19 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang19 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+ .foto-produk20 {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 927px;
+   top: 1604px;
+ }
+ .foto20 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 210px;
+   height: 178px;
+   position: absolute;
+   left: 16px;
+   top: 16px;
+ }
+ .phospor-ababil-50-kg {
+   color: #000000;
+   text-align: center;
+   font: 700 20px "Inter", sans-serif;
+   position: absolute;
+   left: 19px;
+   top: 227px;
+ }
+ .rp-300-000 {
+   color: #000000;
+   text-align: center;
+   font: 600 20px "Inter", sans-serif;
+   position: absolute;
+   left: 61px;
+   top: 259px;
+ }
+ .kotak-beli20 {
+   border-radius: 0px;
+   position: absolute;
+   left: 25px;
+   top: 309px;
+   overflow: visible;
+ }
+ .keranjang20 {
+   position: absolute;
+   left: 161px;
+   top: 315px;
+   overflow: visible;
+ }
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: #4B7D0E;
+}
+
+.footer-top{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  width: 100%;
+  padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+  margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.line{
+
+      width: 1410.046px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  padding:65px;
+  justify-content: space-between;
+  
+}
+
+.footer-content-1 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.footer-content-1 p{
+  width: 534px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+ 
+  list-style: none;    
+
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 290px;
+  
+}
+
+.footer-content-3 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.footer-content-3 p{
+  width: 371px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright{
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  

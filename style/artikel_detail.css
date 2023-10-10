@@ -1,0 +1,429 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding-right: 400;
+  
+}
+.desktop-nav .menu-items{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+  margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+  margin-right:0;
+  font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+  text-decoration:none;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.btn-user img {
+width: 36px;
+height: 36px;
+flex-shrink: 0;
+stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+.artikel-detail,
+.artikel-detail * {
+  box-sizing: border-box;
+}
+.artikel-detail {
+  background: #ffffff;
+  width: 1440px;
+  height: 1490px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-artikel {
+  background: #f7f7f7;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 2px;
+  width: 800px;
+  height: 1136px;
+  position: absolute;
+  left: 62px;
+  top: 161px;
+}
+.jagung-merupakan-salah-satu-komoditi-unggulan-di-indonesia-termasuk-wilayah-kabupaten-jember-jawa-timur-saat-ini-petani-jagung-mulai-intensif-menggunakan-pestisida-termasuk-fungisida-dan-zpt-untuk-meningkatkan-produktivitas-jagung-keunggulan-sinergy-dalam-mengendalikan-penyakit-kresek-pada-jagung-helminthosporium-sp-dan-keunggulan-gibgro-dalam-meningkatkan-produksi-jagung-merupakan-kombinasi-dengan-peluang-yang-besar-untuk-bisa-diterima-oleh-petani-jagung-lokasi-percobaan-percobaan-dilakukan-di-lahan-petani-bpk-hadi-susanto-yang-berlokasi-di-desa-mokorejo-kec-puger-kabupaten-jember-jawa-timur {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/116% "Poppins", sans-serif;
+  position: absolute;
+  left: 405px;
+  top: 255px;
+  width: 429px;
+  height: 434px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/116% "Poppins", sans-serif;
+  position: absolute;
+  left: 94px;
+  top: 727px;
+  width: 737px;
+  height: 540px;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar-span {
+  color: #000000;
+  font: 400 15px/116% "Poppins", sans-serif;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar-span2 {
+  color: #000000;
+  font: 400 15px/116% "Poppins", sans-serif;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar-span3 {
+  color: #000000;
+  font: 400 15px/116% "Poppins", sans-serif;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar-span4 {
+  color: #000000;
+  font: 400 15px/116% "Poppins", sans-serif;
+}
+.hasil-percobaan-dari-hasil-percobaan-aplikasi-pertama-yaitu-umur-20-hst-diperoleh-beberapakeuntungan-sebagai-berikut-1-daun-lebih-lebar-panjang-tinggi-dan-segar-batang-lebih-besar-dan-panjang-pertumbuhan-tanaman-tumbuh-lebih-cepat-seragam-lebih-tinggi-lebih-hijau-segar-dan-bebas-dari-serangan-penyakit-dari-hasil-aplikasi-kedua-umur-40-hst-didapatkan-keuntungan-menggunakan-gibgro-dan-sinergy-sebagai-berikut-daun-lebih-lebar-dan-panjang-batang-lebih-besar-kokoh-dan-seragam-pertumbuhan-perkembangan-penyakit-pertumbuhan-optimal-seragam-bebes-dari-serangan-jamur-busuk-pelepah-dan-karat-daun-keluarnya-bunga-jantan-lebih-serempak-benang-sari-lebih-banyak-sehingga-penyerbukan-sangat-sempurna-kesimpulan-aplikasi-gi-si-terbukti-bahwa-dengan-menggunakan-gibgro-dan-sinergy-pada-tanaman-jagung-pertumbuhan-vegetatif-lebih-cepat-dan-tumbuh-seragam-aplikasi-yang-ke-2-40-hst-sangat-menentukan-besar-dan-panjangnya-tongkol-karena-pada-umur-itu-adalah-fase-primordial-jagung-persentase-dari-jagung-panen-glondongan-ke-pipil-rendaman-lebih-tinggi-60-70-begitu-pula-kepipil-keringnya-dan-serangan-semua-jenis-penyakit-jagung-hampir-tidak-ada-karena-sinergy-mampu-melindungi-sampai-jagung-panen-sehingga-daunnya-tetap-hijau-segar-span5 {
+  color: #000000;
+  font: 400 15px/116% "Poppins", sans-serif;
+}
+.fotoartikel {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 1px;
+  width: 286px;
+  height: 478px;
+  position: absolute;
+  left: 94px;
+  top: 193px;
+}
+.peningkatan-produktivitas-jagung-dengan-gisi {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/125.5% "Poppins", sans-serif;
+  position: absolute;
+  left: 405px;
+  top: 193.39px;
+  width: 428.83px;
+  transform-origin: 0 0;
+  transform: rotate(-0.587deg) scale(1, 1);
+}
+.artikel-lainnya {
+  color: #000000;
+  text-align: center;
+  font: 600 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 953px;
+  top: 161px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.artikel-1 {
+  position: absolute;
+  inset: 0;
+}
+.bg {
+  background: #f7f7f7;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 988px;
+  top: 231px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-artikel1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 185px;
+  position: absolute;
+  left: 987px;
+  top: 454px;
+}
+.cegah-dan-atasi-penyekit-gabah-busuk {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padi-merupakan-salah-satu-komoditas-tanaman-pangan-yang-berfungsi-sebagai-sumber-karbohidrat-utama-masyarakat-indonesia {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.baca-selengkapnya {
+  color: #4b7d0e;
+  text-align: center;
+  font: 600 14px/116% "Poppins", sans-serif;
+  position: relative;
+  width: 190px;
+  height: 18px;
+}
+.fotoartikel1 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 1px;
+  top: -222px;
+}
+.bg2 {
+  background: #f7f7f7;
+  border-radius: 24px;
+  width: 395px;
+  height: 408px;
+  position: absolute;
+  left: 988px;
+  top: 671px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.frame-artikel2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 185px;
+  position: absolute;
+  left: 987px;
+  top: 894px;
+}
+.pencegahan-dan-pengendalian-penyakit-kresek {
+  color: #000000;
+  text-align: center;
+  font: 500 16px/116% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.padi-merupakan-tanaman-pangan-terpenting-yang-banyak-dibudidayakan-karena-sebagai-makanan-pokok-masyarakat-indonesia {
+  color: #000000;
+  text-align: center;
+  font: 400 14px/116% "Inter", sans-serif;
+  position: relative;
+  width: 353px;
+}
+.fotoartikel2 {
+  border-radius: 8px;
+  width: 395px;
+  height: 212px;
+  position: absolute;
+  left: 988px;
+  top: 672px;
+}
+
+
+
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: #4B7D0E;
+}
+
+.footer-top{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  width: 100%;
+  padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+  margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.line{
+
+      width: 1410.046px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  padding:65px;
+  justify-content: space-between;
+  
+}
+
+.footer-content-1 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.footer-content-1 p{
+  width: 534px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+ 
+  list-style: none;    
+
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 290px;
+  
+}
+
+.footer-content-3 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.footer-content-3 p{
+  width: 371px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright{
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  
