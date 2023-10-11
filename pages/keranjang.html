@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ladangku.id</title>
+    <link rel="stylesheet" href="/style/keranjang.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="wrapper">
+      <nav class="desktop-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="/img/Logo-atas.png" alt="" />
+          </a>
+        </div>
+        <div class="frame-keranjang">
+          <svg
+            class="keranjangatas"
+            width="41"
+            height="41"
+            viewBox="0 0 41 41"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="41" height="41" rx="4" fill="white" />
+            <path
+              d="M16.0006 19V11.5C16.0006 10.3065 16.4745 9.16193 17.3181 8.31802C18.1617 7.47411 19.3058 7 20.4988 7C21.6918 7 22.8359 7.47411 23.6795 8.31802C24.5231 9.16193 24.997 10.3065 24.997 11.5V19M11.9992 14.5H29.0008C29.4332 14.4999 29.8605 14.5934 30.2534 14.7741C30.6463 14.9547 30.9955 15.2181 31.277 15.5464C31.5586 15.8747 31.7659 16.26 31.8846 16.6759C32.0034 17.0918 32.0309 17.5285 31.9652 17.956L30.0834 30.184C29.9201 31.2467 29.3818 32.2157 28.566 32.9157C27.7502 33.6157 26.7109 34.0003 25.6362 34H15.3623C14.2878 33.9999 13.2489 33.6151 12.4334 32.9152C11.618 32.2152 11.0799 31.2464 10.9166 30.184L9.03484 17.956C8.96912 17.5285 8.99659 17.0918 9.11537 16.6759C9.23415 16.26 9.44142 15.8747 9.72299 15.5464C10.0046 15.2181 10.3537 14.9547 10.7466 14.7741C11.1395 14.5934 11.5668 14.4999 11.9992 14.5Z"
+              stroke="#4B7D0E"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <div class="frame-cari">
+            <svg
+              class="search"
+              width="20"
+              height="21"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 18.5L12.9298 13.4298M1 8.45906C1 9.37294 1.18 10.2779 1.52973 11.1222C1.87945 11.9665 2.39205 12.7337 3.03826 13.3799C3.68447 14.0261 4.45163 14.5387 5.29595 14.8884C6.14026 15.2381 7.04519 15.4181 7.95906 15.4181C8.87294 15.4181 9.77787 15.2381 10.6222 14.8884C11.4665 14.5387 12.2337 14.0261 12.8799 13.3799C13.5261 12.7337 14.0387 11.9665 14.3884 11.1222C14.7381 10.2779 14.9181 9.37294 14.9181 8.45906C14.9181 7.54519 14.7381 6.64026 14.3884 5.79595C14.0387 4.95163 13.5261 4.18447 12.8799 3.53826C12.2337 2.89205 11.4665 2.37945 10.6222 2.02973C9.77787 1.68 8.87294 1.5 7.95906 1.5C7.04519 1.5 6.14026 1.68 5.29595 2.02973C4.45163 2.37945 3.68447 2.89205 3.03826 3.53826C2.39205 4.18447 1.87945 4.95163 1.52973 5.79595C1.18 6.64026 1 7.54519 1 8.45906Z"
+                stroke="#7F807B"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <div class="cari-produk">Cari produk ...</div>
+          </div>
+        </div>
+        
+      </nav>
+
+      
+<!-- frame -->
+<div class="keranjang">
+  <div class="frame-utama">
+    <div class="navbar-produk">
+      <div class="kotak-produk"></div>
+      <div class="navbar">
+        <div class="harga-satuan">harga satuan</div>
+        <div class="kuantitas">kuantitas</div>
+        <div class="total-harga">total harga</div>
+      </div>
+      <div class="produk">
+        <div class="produk2">produk</div>
+        <svg
+          class="vector"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.5 2.88889C0.5 2.12271 0.804364 1.38791 1.34614 0.846136C1.88791 0.304364 2.62271 0 3.38889 0H23.6111C24.3773 0 25.1121 0.304364 25.6539 0.846136C26.1956 1.38791 26.5 2.12271 26.5 2.88889V23.1111C26.5 23.8773 26.1956 24.6121 25.6539 25.1539C25.1121 25.6956 24.3773 26 23.6111 26H3.38889C2.62271 26 1.88791 25.6956 1.34614 25.1539C0.804364 24.6121 0.5 23.8773 0.5 23.1111V2.88889Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+    <div class="produk3">
+      <div class="produk-chekcout">
+        <div class="kotak-produk-co"></div>
+        <svg
+          class="vector2"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.89646C0.499756 2.13028 0.804116 1.39548 1.34588 0.853704C1.88764 0.311932 2.62243 0.00756836 3.3886 0.00756836H23.6105C24.3767 0.00756836 25.1115 0.311932 25.6533 0.853704C26.195 1.39548 26.4994 2.13028 26.4994 2.89646V23.1187C26.4994 23.8849 26.195 24.6197 25.6533 25.1614C25.1115 25.7032 24.3767 26.0076 23.6105 26.0076H3.3886C2.62243 26.0076 1.88764 25.7032 1.34588 25.1614C0.804116 24.6197 0.499756 23.8849 0.499756 23.1187V2.89646Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="vector3"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.88889C0.499756 2.12271 0.804116 1.38791 1.34588 0.846136C1.88764 0.304364 2.62243 0 3.3886 0H23.6105C24.3767 0 25.1115 0.304364 25.6533 0.846136C26.195 1.38791 26.4994 2.12271 26.4994 2.88889V23.1111C26.4994 23.8773 26.195 24.6121 25.6533 25.1539C25.1115 25.6956 24.3767 26 23.6105 26H3.3886C2.62243 26 1.88764 25.6956 1.34588 25.1539C0.804116 24.6121 0.499756 23.8773 0.499756 23.1111V2.88889Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <div class="toko-elektronik-untuk-pak-tani">
+          toko elektronik untuk pak tani
+        </div>
+        <div class="tangki-sprayer">Tangki sprayer</div>
+        <div class="rp-200-000">rp. 200,000</div>
+        <div class="rp-90-000">rp. 90,000</div>
+        <div class="rp-90-0002">rp. 90,000</div>
+        <div class="angka1">1</div>
+        <div class="kurang">-</div>
+        <div class="tambah">+</div>
+        <div class="variasi-biru">Variasi : biru</div>
+        <img class="Foto-Tangki-sprayer" src="/img/Foto-Tangki-sprayer.png" />
+        <div class="kotak-kuantitas"></div>
+        <div class="kotak-kurang"></div>
+        <div class="kotak-tambah"></div>
+      </div>
+      <div class="produk-chekcout">
+        <div class="kotak-produk-co"></div>
+        <svg
+          class="vector4"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.89646C0.499756 2.13028 0.804116 1.39548 1.34588 0.853704C1.88764 0.311932 2.62243 0.00756836 3.3886 0.00756836H23.6105C24.3767 0.00756836 25.1115 0.311932 25.6533 0.853704C26.195 1.39548 26.4994 2.13028 26.4994 2.89646V23.1187C26.4994 23.8849 26.195 24.6197 25.6533 25.1614C25.1115 25.7032 24.3767 26.0076 23.6105 26.0076H3.3886C2.62243 26.0076 1.88764 25.7032 1.34588 25.1614C0.804116 24.6197 0.499756 23.8849 0.499756 23.1187V2.89646Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="vector5"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.88889C0.499756 2.12271 0.804116 1.38791 1.34588 0.846136C1.88764 0.304364 2.62243 0 3.3886 0H23.6105C24.3767 0 25.1115 0.304364 25.6533 0.846136C26.195 1.38791 26.4994 2.12271 26.4994 2.88889V23.1111C26.4994 23.8773 26.195 24.6121 25.6533 25.1539C25.1115 25.6956 24.3767 26 23.6105 26H3.3886C2.62243 26 1.88764 25.6956 1.34588 25.1539C0.804116 24.6121 0.499756 23.8773 0.499756 23.1111V2.88889Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <div class="toko-elektronik-untuk-pak-tani">
+          toko elektronik untuk pak tani
+        </div>
+        <div class="tangki-sprayer">Tangki sprayer</div>
+        <div class="rp-200-000">rp. 200,000</div>
+        <div class="rp-90-000">rp. 90,000</div>
+        <div class="rp-90-0002">rp. 90,000</div>
+        <div class="angka1">1</div>
+        <div class="kurang">-</div>
+        <div class="tambah">+</div>
+        <div class="variasi-biru">Variasi : biru</div>
+        <img class="Foto-Tangki-sprayer" src="/img/Foto-Tangki-sprayer.png" />
+        <div class="kotak-kuantitas"></div>
+        <div class="kotak-kurang"></div>
+        <div class="kotak-tambah"></div>
+      </div>
+      <div class="produk-chekcout">
+        <div class="kotak-produk-co"></div>
+        <svg
+          class="vector6"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.89646C0.499756 2.13028 0.804116 1.39548 1.34588 0.853704C1.88764 0.311932 2.62243 0.00756836 3.3886 0.00756836H23.6105C24.3767 0.00756836 25.1115 0.311932 25.6533 0.853704C26.195 1.39548 26.4994 2.13028 26.4994 2.89646V23.1187C26.4994 23.8849 26.195 24.6197 25.6533 25.1614C25.1115 25.7032 24.3767 26.0076 23.6105 26.0076H3.3886C2.62243 26.0076 1.88764 25.7032 1.34588 25.1614C0.804116 24.6197 0.499756 23.8849 0.499756 23.1187V2.89646Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="vector7"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.88889C0.499756 2.12271 0.804116 1.38791 1.34588 0.846136C1.88764 0.304364 2.62243 0 3.3886 0H23.6105C24.3767 0 25.1115 0.304364 25.6533 0.846136C26.195 1.38791 26.4994 2.12271 26.4994 2.88889V23.1111C26.4994 23.8773 26.195 24.6121 25.6533 25.1539C25.1115 25.6956 24.3767 26 23.6105 26H3.3886C2.62243 26 1.88764 25.6956 1.34588 25.1539C0.804116 24.6121 0.499756 23.8773 0.499756 23.1111V2.88889Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <div class="toko-elektronik-untuk-pak-tani">
+          toko elektronik untuk pak tani
+        </div>
+        <div class="tangki-sprayer">Tangki sprayer</div>
+        <div class="rp-200-000">rp. 200,000</div>
+        <div class="rp-90-000">rp. 90,000</div>
+        <div class="rp-90-0002">rp. 90,000</div>
+        <div class="angka1">1</div>
+        <div class="kurang">-</div>
+        <div class="tambah">+</div>
+        <div class="variasi-biru">Variasi : biru</div>
+        <img class="Foto-Tangki-sprayer" src="/img/Foto-Tangki-sprayer.png" />
+        <div class="kotak-kuantitas"></div>
+        <div class="kotak-kurang"></div>
+        <div class="kotak-tambah"></div>
+      </div>
+      <div class="produk-chekcout">
+        <div class="kotak-produk-co"></div>
+        <svg
+          class="vector8"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.89646C0.499756 2.13028 0.804116 1.39548 1.34588 0.853704C1.88764 0.311932 2.62243 0.00756836 3.3886 0.00756836H23.6105C24.3767 0.00756836 25.1115 0.311932 25.6533 0.853704C26.195 1.39548 26.4994 2.13028 26.4994 2.89646V23.1187C26.4994 23.8849 26.195 24.6197 25.6533 25.1614C25.1115 25.7032 24.3767 26.0076 23.6105 26.0076H3.3886C2.62243 26.0076 1.88764 25.7032 1.34588 25.1614C0.804116 24.6197 0.499756 23.8849 0.499756 23.1187V2.89646Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="vector9"
+          width="27"
+          height="26"
+          viewBox="0 0 27 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.499756 2.88889C0.499756 2.12271 0.804116 1.38791 1.34588 0.846136C1.88764 0.304364 2.62243 0 3.3886 0H23.6105C24.3767 0 25.1115 0.304364 25.6533 0.846136C26.195 1.38791 26.4994 2.12271 26.4994 2.88889V23.1111C26.4994 23.8773 26.195 24.6121 25.6533 25.1539C25.1115 25.6956 24.3767 26 23.6105 26H3.3886C2.62243 26 1.88764 25.6956 1.34588 25.1539C0.804116 24.6121 0.499756 23.8773 0.499756 23.1111V2.88889Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <div class="toko-elektronik-untuk-pak-tani">
+          toko elektronik untuk pak tani
+        </div>
+        <div class="tangki-sprayer">Tangki sprayer</div>
+        <div class="rp-200-000">rp. 200,000</div>
+        <div class="rp-90-000">rp. 90,000</div>
+        <div class="rp-90-0002">rp. 90,000</div>
+        <div class="angka1">1</div>
+        <div class="kurang">-</div>
+        <div class="tambah">+</div>
+        <div class="variasi-biru">Variasi : biru</div>
+        <img class="Foto-Tangki-sprayer" src="/img/Foto-Tangki-sprayer.png" />
+        <div class="kotak-kuantitas"></div>
+        <div class="kotak-kurang"></div>
+        <div class="kotak-tambah"></div>
+      </div>
+    </div>
+    <div class="frame-pilih-semua-produk">
+      <svg
+        class="vector10"
+        width="26"
+        height="26"
+        viewBox="0 0 26 26"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 2.88889C0 2.12271 0.304364 1.38791 0.846136 0.846136C1.38791 0.304364 2.12271 0 2.88889 0H23.1111C23.8773 0 24.6121 0.304364 25.1539 0.846136C25.6956 1.38791 26 2.12271 26 2.88889V23.1111C26 23.8773 25.6956 24.6121 25.1539 25.1539C24.6121 25.6956 23.8773 26 23.1111 26H2.88889C2.12271 26 1.38791 25.6956 0.846136 25.1539C0.304364 24.6121 0 23.8773 0 23.1111V2.88889Z"
+          stroke="black"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+
+      <div class="frame-dalam-pilih-semua-produk">
+        <div class="pilih-semua-produk-4">pilih Semua Produk (4)</div>
+        <div class="frame-hapus-produk">
+          <div class="hapus-produk">hapus produk</div>
+          <div class="total-produk-4">total produk (4)</div>
+          <div class="rp-2-756-000">rp. 2.756,000</div>
+        </div>
+      </div>
+      <div class="frame-checkout">
+        <div class="checkout">checkout</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer-container">
+  <div class="footer-top">
+    <div class="logo-footer">
+      <a href="#">
+        <img src="/img/Logo-bawah.png" alt="" >
+      </a>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="footer-bottom">
+    <div class="footer-content-1">
+      <h2>Ladangku.id</h2>
+      <p>Proyek web yang bertujuan untuk mensejahterakan setiap petani padi dan jagung melalui fitur dan produk yang kami kembangkan. Dengan mengembangkan ide mengenai Pertanian, kami merasa bahwa pertanian adalah salah satu sektor yang memiliki potensi besar untuk memberikan manfaat sosial dan ekonomi yang signifikan bagi masyarakat.</p>
+    </div>
+    <div class="footer-content-2">
+      <h2>Usefull Links</h2>
+      <ul class="footer-links">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Prediksi Panen</a>
+        </li>
+        <li>
+          <a href="#">Prediksi Cuaca</a>
+        </li>
+        <li>
+          <a href="#">Produk</a>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-content-3">
+      <h2>Hubungi Kami</h2>
+      <p>Ladangku.id
+        Jl. Harsono RM. No. 3, Gedung D
+        Lantai 3 Ragunan Jakarta 12550
+        Indonesia</p>
+        <p>Phone : 081234567890
+       </p>
+       <p>   Email  : help@ladangku.id</p>
+    </div>
+  </div>
+  <footer class="copyright">
+    <h2>Copyright <a href="#">Ladangku.id.</a> All Rights Reserved, 2023</h2>
+  </footer>
+</div>
+    <script src="script/landingpage.js"></script>
+  </body>
+</html>
+

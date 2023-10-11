@@ -1,0 +1,661 @@
+:root{
+    --light-color: #4B7D0E;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+   padding: 20px 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: var(--light-color);
+   position: fixed;
+   z-index: 200;
+   width: 100%;
+   padding-right: 400;
+}
+.frame-keranjang {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 463px;
+  height: 41px;
+  position: absolute;
+  left: 908px;
+  top: 28px;
+}
+.frame-cari {
+  background: #fcfcfc;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 1px;
+  padding: 5px 21px 5px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 477px;
+  position: relative;
+  overflow: hidden;
+}
+.keranjangatas {
+  
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cari-produk {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* frame1 */
+.keranjang * {
+  box-sizing: border-box;
+}
+.keranjang {
+  background: #f2f2f2;
+  width: 1530px;
+  height: 2103px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-utama {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 58px;
+  top: 153px;
+}
+.navbar-produk {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kotak-produk {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1414px;
+  height: 84px;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 709px;
+  top: 22px;
+}
+.harga-satuan {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kuantitas {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-harga {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.produk {
+  flex-shrink: 0;
+  width: 134px;
+  height: 27px;
+  position: static;
+}
+.produk2 {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector {
+  position: absolute;
+  left: 19px;
+  top: 29px;
+  overflow: visible;
+}
+.produk3 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 1508px;
+  position: relative;
+}
+.produk-chekcout {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 353px;
+  position: relative;
+}
+.kotak-produk-co {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1414px;
+  height: 353px;
+  position: relative;
+}
+.vector2 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 24.01px;
+  overflow: visible;
+}
+.vector3 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 170px;
+  overflow: visible;
+}
+.toko-elektronik-untuk-pak-tani {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tangki-sprayer {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 346px;
+  top: 76px;
+  width: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rp-200-000 {
+  color: #181717;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  text-decoration: line-through;
+  position: absolute;
+  left: 724px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rp-90-000 {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 868px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rp-90-0002 {
+  color: #000000;
+  text-align: center;
+  font: 600 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1258px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.angka1 {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1050px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kurang {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1003px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tambah {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1093px;
+  top: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.variasi-biru {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 160px;
+  top: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Foto-Tangki-sprayer {
+  flex-shrink: 0;
+  width: 258px;
+  height: 213px;
+  position: absolute;
+  left: 78px;
+  top: 76px;
+}
+.kotak-kuantitas {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 122px;
+  height: 31px;
+  position: absolute;
+  left: 991px;
+  top: 167px;
+}
+.kotak-kurang {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 991px;
+  top: 167px;
+}
+.kotak-tambah {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 1082px;
+  top: 167px;
+}
+.vector4 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 24.01px;
+  overflow: visible;
+}
+.vector5 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 170px;
+  overflow: visible;
+}
+.vector6 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 24.01px;
+  overflow: visible;
+}
+.vector7 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 170px;
+  overflow: visible;
+}
+.vector8 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 24.01px;
+  overflow: visible;
+}
+.vector9 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 170px;
+  overflow: visible;
+}
+.frame-pilih-semua-produk {
+   background: #ffffff;
+   flex-shrink: 0;
+   width: 1414px;
+   height: 105px;
+   position: relative;
+}
+.vector10 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 21px;
+  top: 41px;
+  overflow: visible;
+}
+.frame-dalam-pilih-semua-produk {
+  display: flex;
+  flex-direction: row;
+  gap: 108px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 108px;
+  top: 40px;
+}
+.pilih-semua-produk-4 {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-hapus-produk {
+  display: flex;
+  flex-direction: row;
+  gap: 77px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.hapus-produk {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-produk-4 {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rp-2-756-000 {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-checkout {
+  background: #4b7d0e;
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 220px;
+  position: absolute;
+  left: 1154px;
+  top: 30px;
+}
+.checkout {
+  color: #ffffff;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Footer */
+.footer-container {
+   width: 100%;
+   margin: 0 auto;
+   flex-shrink: 0;
+   background: #4B7D0E;
+}
+
+.footer-top{
+   padding: 20px 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 200;
+   width: 100%;
+   padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+   display: flex;
+   list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+   margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+ 
+.line{
+
+       width: 1410.046px;
+       height: 1px;
+       background: white;
+       margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+   display: flex;
+   flex-direction: row;
+   padding:65px;
+   justify-content: space-between;
+   
+}
+
+.footer-content-1 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   
+}
+.footer-content-1 p{
+   width: 534px;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+  
+   list-style: none;    
+
+}
+.footer-links li a{
+   text-decoration: none;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   
+}
+
+.footer-content-3 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-bottom: 10px;
+}
+.footer-content-3 p{
+   width: 371px;
+   color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.copyright{
+   display: flex;
+   width: auto;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+   text-decoration: none;
+   color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  
