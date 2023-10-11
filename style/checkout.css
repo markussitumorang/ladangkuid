@@ -1,0 +1,875 @@
+:root{
+    --light-color: #4B7D0E;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+   padding: 20px 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: var(--light-color);
+   position: fixed;
+   z-index: 200;
+   width: 100%;
+   padding-right: 400;
+}
+.frame-keranjang {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 463px;
+  height: 41px;
+  position: absolute;
+  left: 908px;
+  top: 28px;
+}
+.frame-cari {
+  background: #fcfcfc;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 1px;
+  padding: 5px 21px 5px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 477px;
+  position: relative;
+  overflow: hidden;
+}
+.keranjangatas {
+  
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cari-produk {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* frame1 */
+.frame-co {
+  background: #F2F2F2;
+  flex-shrink: 0;
+  width: 1533px;
+  height: 1727px;
+  position: static;
+}
+.ladangku {
+  width: 1316px;
+  height: 122px;
+  position: static;
+}
+.kotak-ladangku {
+  background: #ffffff;
+  width: 1416px;
+  height: 89px;
+  position: absolute;
+  left: 62px;
+  top: 157px;
+}
+.ladangku-id {
+  color: #000000;
+  text-align: left;
+  font: 600 22px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 109px;
+  top: 171px;
+  width: 263px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkout {
+  color: #000000;
+  text-align: left;
+  font: 400 22px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 293px;
+  top: 171px;
+  width: 263px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.alamat-pengiriman {
+  width: 1316px;
+  height: 135px;
+  position: static;
+}
+.kotak-alamat {
+  background: #ffffff;
+  width: 1416px;
+  height: 135px;
+  position: absolute;
+  left: 62px;
+  top: 308px;
+}
+.alamat-pengiriman2 {
+  color: #000000;
+  text-align: left;
+  font: 400 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 109px;
+  top: 336.14px;
+  width: 174px;
+  height: 18.16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.markus-situmorang-62-81234567890 {
+  color: #000000;
+  text-align: left;
+  font: 600 15px/128.5% "Poppins", sans-serif;
+  position: absolute;
+  left: 109px;
+  top: 376px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.air-raja-perumahan-permata-galaxy-blok-mercury-3-no-5 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/128.5% "Poppins", sans-serif;
+  position: absolute;
+  left: 546px;
+  top: 386px;
+}
+.frame-ubah {
+  background: #4b7d0e;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 26.22px;
+  position: absolute;
+  left: 1271px;
+  top: 383px;
+}
+.ubah {
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px/128.5% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.produk-yang-di-pesan {
+  width: 1316.07px;
+  height: 610px;
+  position: static;
+}
+.produk-yang-di-pesan2 {
+  width: 1316px;
+  height: 84px;
+  position: static;
+}
+.kotak-produk {
+  background: #ffffff;
+  width: 1416px;
+  height: 84px;
+  position: absolute;
+  left: 61.99px;
+  top: 488px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 904px;
+  top: 517px;
+}
+.harga-satuan {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumlah {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-harga {
+  color: #000000;
+  text-align: center;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.produk-yang-dipesan {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 108.99px;
+  top: 517px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-lurus {
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px 0 0 0;
+  width: 1416px;
+  height: 0px;
+  position: absolute;
+  left: 61.99px;
+  top: 572px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.kotak-toko {
+  background: #ffffff;
+  width: 1416px;
+  height: 526px;
+  position: absolute;
+  left: 62px;
+  top: 572px;
+}
+.pesan {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 109px;
+  top: 946px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.paket-pompa-v-3 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 641px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-toko {
+  display: flex;
+  flex-direction: row;
+  gap: 112px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 925px;
+  top: 768px;
+}
+.rp-256-000 {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.angka1 {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-putus-putus1 {
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1416.05px;
+  height: 0px;
+  position: absolute;
+  left: 61.97px;
+  top: 908.42px;
+}
+.frame-foto {
+  width: 199px;
+  height: 199px;
+  position: absolute;
+  left: 144px;
+  top: 641px;
+}
+.line-putus-putus2 {
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1416.05px;
+  height: 0px;
+  position: absolute;
+  left: 63.99px;
+  top: 1016px;
+}
+.reguler {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 904px;
+  top: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.total-pesanan-1-produk {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 892px;
+  top: 1039px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.toko-elektronik-untuk-pak-tani {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 108.99px;
+  top: 598px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.variasi-biru {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 198px;
+  top: 856px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rp-20-000 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1234px;
+  top: 946px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rp-276-000 {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1221px;
+  top: 1037px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.akan-diterima-pada-tanggal-22-25-september {
+  color: #000000;
+  text-align: left;
+  font: 400 12px/111.5% "Poppins", sans-serif;
+  position: absolute;
+  left: 904px;
+  top: 967px;
+}
+.frame-pesan {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 362px;
+  position: absolute;
+  left: 195px;
+  top: 938px;
+}
+.pesan-ke-penjual {
+  color: #181717;
+  text-align: left;
+  font: 400 italic 12px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.metode-pembayaran {
+  width: 1317px;
+  height: 425px;
+  position: absolute;
+  left: 61.5px;
+  top: 1143px;
+}
+.kotak-cod {
+  background: #ffffff;
+  width: 1416px;
+  height: 425px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.line-lurus2 {
+  border-style: solid;
+  border-color: #6d6d6d;
+  border-width: 1px 0 0 0;
+  width: 1416px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 141px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-putus-putus3 {
+  border-style: dashed;
+  border-color: #6d6d6d;
+  border-width: 1px 0 0 0;
+  width: 1416px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 336px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.cod {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cash-on-delivery {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 213px;
+  top: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-buat-pesanan {
+  background: #4b7d0e;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1108.5px;
+  top: 353px;
+}
+.buat-pesanan {
+  color: #ffffff;
+  text-align: right;
+  font: 600 18px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.dibawahnya {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 229px;
+  height: 79px;
+  position: absolute;
+  left: 728px;
+  top: 170px;
+}
+.sub-total-untuk-produk {
+  color: #1e1e1e;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.total-ongkos-kirim {
+  color: #1e1e1e;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.biaya-layanan {
+  color: #1e1e1e;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.dibawahnya2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 104px;
+  height: 79px;
+  position: absolute;
+  left: 1160px;
+  top: 170px;
+}
+.rp-210-000 {
+  color: #1e1e1e;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.rp-29-000 {
+  color: #1e1e1e;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.rp-1-000 {
+  color: #1e1e1e;
+  text-align: left;
+  font: 400 15px/150% "Poppins", sans-serif;
+  position: relative;
+}
+.total-pembayaran {
+  color: #1e1e1e;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 728px;
+  top: 264px;
+}
+.rp-240-000 {
+  color: #1e1e1e;
+  text-align: right;
+  font: 500 22px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 1135px;
+  top: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header2 {
+  position: absolute;
+  inset: 0;
+}
+.kotak-pembayaran {
+  background: #ffffff;
+  width: 1316px;
+  height: 67px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.metode-pembayaran2 {
+  color: #000000;
+  text-align: left;
+  font: 500 18px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-lurus1 {
+  border-style: solid;
+  border-color: #6d6d6d;
+  border-width: 1px 0 0 0;
+  width: 1416px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 67px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.metode-pembayaran3 {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 308px;
+  height: 24px;
+  position: absolute;
+  left: 955px;
+  top: 22px;
+}
+.cod2 {
+  background: #4b7d0e;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 1px;
+  padding: 1px 12px 1px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.c-od {
+  color: #ffffff;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.transfer-bank {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4b7d0e;
+  border-width: 1px;
+  padding: 1px 12px 1px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.transfer-bank2 {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* Footer */
+.footer-container {
+   width: 100%;
+   margin: 0 auto;
+   flex-shrink: 0;
+   background: #4B7D0E;
+}
+
+.footer-top{
+   padding: 20px 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 200;
+   width: 100%;
+   padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+   display: flex;
+   list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+   margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+ 
+.line{
+
+       width: 1410.046px;
+       height: 1px;
+       background: white;
+       margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+   display: flex;
+   flex-direction: row;
+   padding:65px;
+   justify-content: space-between;
+   
+}
+
+.footer-content-1 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   
+}
+.footer-content-1 p{
+   width: 534px;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+  
+   list-style: none;    
+
+}
+.footer-links li a{
+   text-decoration: none;
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   
+}
+
+.footer-content-3 h2{
+   color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-bottom: 10px;
+}
+.footer-content-3 p{
+   width: 371px;
+   color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.copyright{
+   display: flex;
+   width: auto;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+   text-decoration: none;
+   color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  
