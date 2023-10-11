@@ -76,7 +76,7 @@ cursor: pointer;
 /* side bar container */
 .side-bar-container {
     width: 461px;
-    height: 1958px;
+    height: 1200px;
     flex-shrink: 0;
     border: 1px solid #484343;
 background: #FFF;

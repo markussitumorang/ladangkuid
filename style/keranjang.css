@@ -495,7 +495,7 @@ body{
   left: 1154px;
   top: 30px;
 }
-.checkout {
+.checkout a{
   color: #ffffff;
   text-align: center;
   font: 500 18px/150% "Poppins", sans-serif;
@@ -503,6 +503,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 

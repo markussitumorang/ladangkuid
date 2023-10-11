@@ -125,6 +125,7 @@ cursor: pointer;
   position: absolute;
   left: 548px;
   top: 643px;
+  cursor: pointer;
 }
 .produk-sejenis {
   color: #000000;
@@ -261,38 +262,55 @@ cursor: pointer;
   top: 109px;
   width: 153px;
 }
-.beli {
-  color: #ffffff;
-  text-align: center;
-  font: 700 25px "Inter", sans-serif;
-  position: absolute;
-  left: 624px;
-  top: 657px;
+
+ .beli{
+   position: absolute;
+      left: 624px;
+      top: 657px;
+      z-index: 0; /* Menetapkan nilai z-index lebih rendah */
 }
+   .beli a {
+    color: #ffffff;
+    text-align: center;
+    font: 700 25px "Inter", sans-serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Menggunakan posisi absolut untuk tata letak */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Menetapkan nilai z-index lebih tinggi */
+  }
+  
+
 .keranjang {
   position: absolute;
-  inset: 0;
+  left: 796px;
+  top: 644px;
+  
+  
+ 
 }
-.kotak-kranjang {
+.kotak-kranjang a{
   background: #d9d9d9;
   border-radius: 8px;
   border-style: solid;
   border-color: #000000;
-  border-width: 2px;
+  border-width: 1px;
   width: 198px;
   height: 58px;
-  position: absolute;
-  left: 770px;
-  top: 643px;
-}
-.keranjang2 {
   color: #181717;
-  text-align: center;
+ text-align: center;
   font: 700 25px "Inter", sans-serif;
   position: absolute;
   left: 796px;
-  top: 657px;
+  top: 644px;
+  text-decoration: none;
+  
+  
 }
+
 .bg-testimoni {
   background: #f7f7f7;
   width: 1550px;
@@ -365,7 +383,7 @@ cursor: pointer;
 }
 .frame-user-testi {
   position: absolute;
-  inset: 0;
+
 }
 .fotoagus {
   border-radius: 8px;
