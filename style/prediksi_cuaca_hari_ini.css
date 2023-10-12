@@ -1,0 +1,723 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding-right: 400;
+  
+}
+.desktop-nav .menu-items{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+  margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+  margin-right:0;
+  font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+  text-decoration:none;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.btn-user img {
+width: 36px;
+height: 36px;
+flex-shrink: 0;
+stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+.prediksi-cuaca-hari-ini,
+.prediksi-cuaca-hari-ini * {
+  box-sizing: border-box;
+}
+.prediksi-cuaca-hari-ini {
+  background: #ffffff;
+  width: 1531px;
+  height: 1300px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-hari {
+  display: flex;
+  flex-direction: row;
+  gap: 122px;
+  align-items: center;
+  justify-content: center;
+  width: 1378px;
+  position: absolute;
+  left: calc(50% - 658.5px);
+  top: 226px;
+}
+.hari-ini {
+  color: #181717;
+  text-align: left;
+  font: 700 18px "Poppins", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.per-jam {
+  color: #181717;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-prakiraan {
+  display: flex;
+  flex-direction: row;
+  gap: 599px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1381px;
+  position: absolute;
+  left: 66px;
+  top: 158px;
+}
+.prakiraan-cuaca {
+  color: #181717;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-samping-cuaca {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 629px;
+  position: relative;
+}
+.frame-laubaleng {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.laubaleng-karo {
+  color: #181717;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  opacity: 0.6000000238418579;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-angka26 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.angka26 {
+  color: #181717;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-cari {
+  background: #fcfcfc;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 1px;
+  padding: 5px 21px 5px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 318px;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cari {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 1px 0 0 0;
+  width: 1381px;
+  height: 0px;
+  position: absolute;
+  left: 66px;
+  top: 265px;
+}
+.line-bawah-hari {
+  border-style: solid;
+  border-color: #181717;
+  border-width: 2px 0 0 0;
+  width: 90.22px;
+  height: 0px;
+  position: absolute;
+  left: 653.94px;
+  top: 264.78px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.tabel {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  width: 1572px;
+  position: absolute;
+  left: -1px;
+  top: 299px;
+}
+.cuaca-saat-ini {
+  flex-shrink: 0;
+  width: 1568px;
+  height: 409px;
+  position: static;
+}
+.kotak-cuaca {
+  background: #f7f7f7;
+  width: 1568px;
+  height: 409px;
+  position: absolute;
+  left: 2px;
+  top: 0px;
+}
+.frame-cuaca {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 129.49px;
+  position: absolute;
+  left: 69.46px;
+  top: 10px;
+}
+.cuaca-saat-ini2 {
+  color: #181717;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jam20-15 {
+  color: #181717;
+  text-align: left;
+  font: 400 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-kualitas {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 658.32px;
+  position: absolute;
+  left: 843.13px;
+  top: 135px;
+}
+.kualitas-udara {
+  flex-shrink: 0;
+  width: 605px;
+  height: 33.99px;
+  position: static;
+}
+.kualitas-udara2 {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 329.16px);
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bagus {
+  color: #555bef;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -227.84px);
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.line-kualitas {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 1px 0 0 0;
+  width: 605px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 33.99px;
+}
+.kecepatan-angin {
+  flex-shrink: 0;
+  width: 605px;
+  height: 34px;
+  position: static;
+}
+.kecepatan-angin2 {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 329.16px);
+  top: 51.99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._6-km-jam {
+  color: #1e1e1e;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -198.84px);
+  top: 51.99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.line-kecepatan {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 1px 0 0 0;
+  width: 605px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 329.16px);
+  top: 85.99px;
+}
+.kelembapan {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 329.16px);
+  top: 103.99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lembap {
+  color: #3b7de0;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -213.84px);
+  top: 103.99px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.line-kelembapan {
+  border-style: solid;
+  border-color: #7f807b;
+  border-width: 1px 0 0 0;
+  width: 605px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 329.16px);
+  top: 137.99px;
+}
+.group-derajat {
+  width: 99.02px;
+  height: 109.35px;
+  position: static;
+}
+.berawan {
+  color: #000000;
+  text-align: center;
+  font: 500 19px "Poppins", sans-serif;
+  position: absolute;
+  left: 196.78px;
+  top: 353.35px;
+  width: 92.49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.angka26berawan {
+  color: #181717;
+  text-align: center;
+  font: 300 75px "Readex Pro", sans-serif;
+  position: absolute;
+  left: calc(50% - 589.22px);
+  top: 273px;
+  width: 92.49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-drajat {
+  position: absolute;
+  left: 284.91px;
+  top: 293.35px;
+  overflow: visible;
+}
+.partly-cloudy-day {
+  width: 248.09px;
+  height: 201px;
+  position: absolute;
+  left: 121.69px;
+  top: 67px;
+}
+.kelembapan2 {
+  position: absolute;
+  inset: 0;
+}
+.kotak-kelembapan {
+  background: #f7f7f7;
+  width: 1569px;
+  height: 409px;
+  position: absolute;
+  left: calc(50% - 786.5px);
+  top: 742px;
+}
+.ask {
+  position: absolute;
+  left: 1460.21px;
+  top: 770px;
+  overflow: visible;
+}
+.cuaca-lembap-dapat-meningkatkan-resiko-serangan-hama-dan-penyakit-pada-tanaman-padi-dan-jagung-periksa-tanaman-secara-rutin-dan-pertimbangkan-penggunaan-pestisida-atau-fungisida-pada-tanaman-padi-dan-jagung-jika-diperlukan {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 842px;
+  top: 924px;
+  width: 631.52px;
+}
+.frame-kelembapan {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 295.01px;
+  height: 36.41px;
+  position: absolute;
+  left: 66px;
+  top: 758px;
+}
+.kelembapan3 {
+  color: #181717;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  width: 270.94px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jam20-152 {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
+  position: relative;
+  width: 76.47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lembap2 {
+  color: #181717;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - -56.5px);
+  top: 888px;
+  width: 72.95px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-2 {
+  background: #3b7de0;
+  border-radius: 50%;
+  width: 248px;
+  height: 228px;
+  position: absolute;
+  left: 118px;
+  top: 832px;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #3b7de0;
+  border-width: 3px;
+  width: 248px;
+  height: 228px;
+  position: absolute;
+  left: 118.77px;
+  top: 832px;
+}
+.line-8 {
+  border-style: solid;
+  border-color: #3b7de0;
+  border-width: 2px 0 0 0;
+  width: 90.22px;
+  height: 0px;
+  position: absolute;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  left: 809px;
+  top: 877px;
+  overflow: visible;
+}
+.prediksi-cuaca-prakiraan-cuaca-hari-ini {
+  color: #bfbfbf;
+  text-align: left;
+  font: 400 12px "Poppins", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: #4B7D0E;
+}
+
+.footer-top{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  width: 100%;
+  padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+  margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.line{
+
+      width: 1410.046px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  padding:65px;
+  justify-content: space-between;
+  
+}
+
+.footer-content-1 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.footer-content-1 p{
+  width: 534px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+ 
+  list-style: none;    
+
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 290px;
+  
+}
+
+.footer-content-3 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.footer-content-3 p{
+  width: 371px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright{
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  

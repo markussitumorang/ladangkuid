@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ladangku.id</title>
+    <link rel="stylesheet" href="/style/prediksi_cuaca_hari_ini.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="wrapper">
+      <nav class="desktop-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="/img/Logo.png" alt="" />
+          </a>
+        </div>
+        <ul class="menu-items">
+          <li>
+            <a href="#">Prediksi Panen</a>
+          </li>
+          <li>
+            <a href="prediksi_cuaca_hari_ini.html">Prediksi Cuaca</a>
+          </li>
+          <li>
+            <a href="produk.html">Produk </a>
+          </li>
+          <li>
+            <a href="artikel.html">Artikel</a>
+          </li>
+          <li>
+            <a href="/pages/user.html"> <img src="/img/user.png" class="btn-user" > </img></a>
+          </li>
+        </ul>
+      </nav>
+
+      
+<!-- frame -->
+<div class="prediksi-cuaca-hari-ini">
+  <div class="frame-hari">
+    <div class="hari-ini">hari ini</div>
+    <div class="per-jam">per jam</div>
+  </div>
+  <div class="frame-prakiraan">
+    <div class="prakiraan-cuaca">prakiraan cuaca</div>
+    <div class="frame-samping-cuaca">
+      <div class="frame-laubaleng">
+        <div class="laubaleng-karo">Laubaleng, Karo</div>
+        <div class="frame-angka26">
+          <div class="angka26">26</div>
+          <svg
+            class="vector"
+            width="11"
+            height="8"
+            viewBox="0 0 11 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 2C11 1.46957 10.7827 0.960859 10.3959 0.585787C10.0091 0.210714 9.48451 0 8.9375 0H8.25C7.70299 0 7.17839 0.210714 6.79159 0.585787C6.4048 0.960859 6.1875 1.46957 6.1875 2V6C6.1875 6.53043 6.4048 7.03914 6.79159 7.41421C7.17839 7.78929 7.70299 8 8.25 8H8.9375C9.48451 8 10.0091 7.78929 10.3959 7.41421C10.7827 7.03914 11 6.53043 11 6M0 1.33333C0 1.68696 0.144866 2.02609 0.402728 2.27614C0.660591 2.52619 1.01033 2.66667 1.375 2.66667C1.73967 2.66667 2.08941 2.52619 2.34727 2.27614C2.60513 2.02609 2.75 1.68696 2.75 1.33333C2.75 0.979711 2.60513 0.640573 2.34727 0.390524C2.08941 0.140476 1.73967 0 1.375 0C1.01033 0 0.660591 0.140476 0.402728 0.390524C0.144866 0.640573 0 0.979711 0 1.33333Z"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="frame-cari">
+        <svg
+          class="search"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18 18L12.9298 12.9298M1 7.95906C1 8.87294 1.18 9.77787 1.52973 10.6222C1.87945 11.4665 2.39205 12.2337 3.03826 12.8799C3.68447 13.5261 4.45163 14.0387 5.29595 14.3884C6.14026 14.7381 7.04519 14.9181 7.95906 14.9181C8.87294 14.9181 9.77787 14.7381 10.6222 14.3884C11.4665 14.0387 12.2337 13.5261 12.8799 12.8799C13.5261 12.2337 14.0387 11.4665 14.3884 10.6222C14.7381 9.77787 14.9181 8.87294 14.9181 7.95906C14.9181 7.04519 14.7381 6.14026 14.3884 5.29595C14.0387 4.45163 13.5261 3.68447 12.8799 3.03826C12.2337 2.39205 11.4665 1.87945 10.6222 1.52973C9.77787 1.18 8.87294 1 7.95906 1C7.04519 1 6.14026 1.18 5.29595 1.52973C4.45163 1.87945 3.68447 2.39205 3.03826 3.03826C2.39205 3.68447 1.87945 4.45163 1.52973 5.29595C1.18 6.14026 1 7.04519 1 7.95906Z"
+            stroke="#7F807B"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <div class="cari">Cari...</div>
+      </div>
+    </div>
+  </div>
+  <div class="line-1"></div>
+  <div class="line-bawah-hari"></div>
+  <div class="tabel">
+    <div class="cuaca-saat-ini">
+      <div class="kotak-cuaca"></div>
+      <div class="frame-cuaca">
+        <div class="cuaca-saat-ini2">cuaca saat ini</div>
+        <div class="jam20-15">20.15</div>
+      </div>
+      <div class="frame-kualitas">
+        <div class="kualitas-udara">
+          <div class="kualitas-udara2">Kualitas Udara</div>
+          <div class="bagus">Bagus</div>
+          <div class="line-kualitas"></div>
+        </div>
+        <div class="kecepatan-angin">
+          <div class="kecepatan-angin2">Kecepatan Angin</div>
+          <div class="_6-km-jam">6 Km/Jam</div>
+          <div class="line-kecepatan"></div>
+        </div>
+        <div class="kecepatan-angin">
+          <div class="kelembapan">Kelembapan</div>
+          <div class="lembap">Lembap</div>
+          <div class="line-kelembapan"></div>
+        </div>
+      </div>
+      <div class="group-derajat">
+        <div class="berawan">berawan</div>
+        <div class="angka26berawan">26</div>
+        <svg
+          class="frame-drajat"
+          width="12"
+          height="11"
+          viewBox="0 0 12 11"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.914795 5.35388C0.914795 6.01049 1.05552 6.66067 1.32894 7.2673C1.60236 7.87393 2.00312 8.42512 2.50833 8.88942C3.01354 9.35371 3.61332 9.72201 4.27341 9.97328C4.9335 10.2246 5.64098 10.3539 6.35546 10.3539C7.06994 10.3539 7.77742 10.2246 8.43751 9.97328C9.09761 9.72201 9.69738 9.35371 10.2026 8.88942C10.7078 8.42512 11.1086 7.87393 11.382 7.2673C11.6554 6.66067 11.7961 6.01049 11.7961 5.35388C11.7961 4.69727 11.6554 4.04709 11.382 3.44046C11.1086 2.83384 10.7078 2.28264 10.2026 1.81835C9.69738 1.35405 9.09761 0.985758 8.43751 0.734484C7.77742 0.483211 7.06994 0.353882 6.35546 0.353882C5.64098 0.353882 4.9335 0.483211 4.27341 0.734484C3.61332 0.985758 3.01354 1.35405 2.50833 1.81835C2.00312 2.28264 1.60236 2.83384 1.32894 3.44046C1.05552 4.04709 0.914795 4.69727 0.914795 5.35388Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <img class="partly-cloudy-day" src="/img/partly-cloudy-day.png" />
+    </div>
+  </div>
+  <div class="kelembapan2">
+    <div class="kotak-kelembapan"></div>
+    <svg
+      class="ask"
+      width="27"
+      height="24"
+      viewBox="0 0 27 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <ellipse cx="13.2711" cy="12" rx="13.065" ry="12" fill="#D9D9D9" />
+      <path
+        d="M9.77344 8.33639C9.77344 7.62352 10.0882 6.93986 10.6486 6.43578C11.2089 5.93171 11.9689 5.64853 12.7614 5.64853H13.615C14.4075 5.64853 15.1675 5.93171 15.7278 6.43578C16.2882 6.93986 16.603 7.62352 16.603 8.33639C16.6344 8.91809 16.4849 9.49476 16.1769 9.97954C15.869 10.4643 15.4193 10.831 14.8956 11.0242C14.3719 11.2819 13.9222 11.7708 13.6142 12.4172C13.3063 13.0636 13.1568 13.8325 13.1882 14.6081M13.1882 18.1919V18.2008"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+
+    <div
+      class="cuaca-lembap-dapat-meningkatkan-resiko-serangan-hama-dan-penyakit-pada-tanaman-padi-dan-jagung-periksa-tanaman-secara-rutin-dan-pertimbangkan-penggunaan-pestisida-atau-fungisida-pada-tanaman-padi-dan-jagung-jika-diperlukan"
+    >
+      “Cuaca lembap dapat meningkatkan resiko serangan hama dan penyakit pada
+      tanaman padi dan jagung periksa tanaman secara rutin dan pertimbangkan
+      penggunaan pestisida atau fungisida pada tanaman padi dan jagung jika
+      diperlukan”
+    </div>
+    <div class="frame-kelembapan">
+      <div class="kelembapan3">Kelembapan</div>
+      <div class="jam20-152">20.15</div>
+    </div>
+    <div class="lembap2">Lembap</div>
+    <div class="ellipse-2"></div>
+    <div class="ellipse-3"></div>
+    <svg
+      class="line-8"
+      width="80"
+      viewBox="0 0 80 0"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M0 0H79.4844" stroke="#3B7DE0" stroke-width="5" />
+    </svg>
+  </div>
+  <div class="prediksi-cuaca-prakiraan-cuaca-hari-ini">
+    prediksi cuaca/Prakiraan Cuaca Hari Ini
+  </div>
+</div>
+
+
+
+<!-- footer -->
+<div class="footer-container">
+  <div class="footer-top">
+    <div class="logo-footer">
+      <a href="#">
+        <img src="/img/Logo-Putih.png" alt="" >
+      </a>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="footer-bottom">
+    <div class="footer-content-1">
+      <h2>Ladangku.id</h2>
+      <p>Proyek web yang bertujuan untuk mensejahterakan setiap petani padi dan jagung melalui fitur dan produk yang kami kembangkan. Dengan mengembangkan ide mengenai Pertanian, kami merasa bahwa pertanian adalah salah satu sektor yang memiliki potensi besar untuk memberikan manfaat sosial dan ekonomi yang signifikan bagi masyarakat.</p>
+    </div>
+    <div class="footer-content-2">
+      <h2>Usefull Links</h2>
+      <ul class="footer-links">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Prediksi Panen</a>
+        </li>
+        <li>
+          <a href="#">Prediksi Cuaca</a>
+        </li>
+        <li>
+          <a href="#">Produk</a>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-content-3">
+      <h2>Hubungi Kami</h2>
+      <p>Ladangku.id
+        Jl. Harsono RM. No. 3, Gedung D
+        Lantai 3 Ragunan Jakarta 12550
+        Indonesia</p>
+        <p>Phone : 081234567890
+       </p>
+       <p>   Email  : help@ladangku.id</p>
+    </div>
+  </div>
+  <footer class="copyright">
+    <h2>Copyright <a href="#">Ladangku.id.</a> All Rights Reserved, 2023</h2>
+  </footer>
+</div>
+    <script src="script/landingpage.js"></script>
+  </body>
+</html>
