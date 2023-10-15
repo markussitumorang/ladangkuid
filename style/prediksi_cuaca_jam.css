@@ -68,14 +68,14 @@ cursor: pointer;
 }
 
 /* frame1 */
-.prediksi-cuaca-hari-ini,
-.prediksi-cuaca-hari-ini * {
+.prediksi-cuaca-per-jam,
+.prediksi-cuaca-per-jam * {
   box-sizing: border-box;
 }
-.prediksi-cuaca-hari-ini {
+.prediksi-cuaca-per-jam {
   background: #ffffff;
-  width: 1531px;
-  height: 1300px;
+  width: 1567px;
+  height: 2128px;
   position: relative;
   overflow: hidden;
 }
@@ -90,17 +90,7 @@ cursor: pointer;
   left: calc(50% - 658.5px);
   top: 226px;
 }
-.hari-ini {
-  color: #181717;
-  text-align: left;
-  font: 700 18px "Poppins", sans-serif;
-  text-transform: uppercase;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.per-jam a{
+.hari-ini a{
   color: #181717;
   text-align: left;
   font: 500 18px "Poppins", sans-serif;
@@ -110,6 +100,17 @@ cursor: pointer;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
+}
+.per-jam {
+  color: #181717;
+  text-align: left;
+  font: 700 18px "Poppins", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
 .frame-prakiraan {
   display: flex;
@@ -231,80 +232,70 @@ cursor: pointer;
   width: 90.22px;
   height: 0px;
   position: absolute;
-  left: 653.94px;
+  left: 863.94px;
   top: 264.78px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.tabel {
+.frame-2383 {
   display: flex;
   flex-direction: column;
-  gap: 35px;
-  align-items: center;
-  justify-content: center;
-  width: 1572px;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1568px;
   position: absolute;
   left: -1px;
   top: 299px;
 }
-.cuaca-saat-ini {
+._22-00 {
   flex-shrink: 0;
   width: 1568px;
   height: 409px;
   position: static;
 }
-.kotak-cuaca {
+.rectangle-80 {
   background: #f7f7f7;
-  width: 1568px;
+  width: 1540px;
   height: 409px;
   position: absolute;
-  left: 2px;
+  left: 0px;
   top: 0px;
 }
-.frame-cuaca {
+.frame-2378 {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 17px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 129.49px;
+  width: 603.91px;
+  height: 138.34px;
   position: absolute;
-  left: 69.46px;
-  top: 10px;
+  left: 66.38px;
+  top: 150.81px;
 }
-.cuaca-saat-ini2 {
+.langit-umumnya-cerah {
   color: #181717;
   text-align: left;
-  font: 500 16px "Poppins", sans-serif;
+  font: 500 15px "Poppins", sans-serif;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.jam20-15 {
-  color: #181717;
-  text-align: left;
-  font: 400 15px "Poppins", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.frame-kualitas {
+.frame-294 {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 19px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 658.32px;
-  position: absolute;
-  left: 843.13px;
-  top: 135px;
+  flex-shrink: 0;
+  position: relative;
 }
 .kualitas-udara {
   flex-shrink: 0;
-  width: 605px;
-  height: 33.99px;
+  width: 555px;
+  height: 33px;
   position: static;
 }
 .kualitas-udara2 {
@@ -312,250 +303,536 @@ cursor: pointer;
   text-align: left;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - 329.16px);
+  left: 0px;
   top: 0px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 .bagus {
-  color: #555bef;
+  color: #181717;
   text-align: right;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - -227.84px);
+  left: 499px;
   top: 0px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.line-kualitas {
+.line-9 {
   border-style: solid;
-  border-color: #7f807b;
+  border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 605px;
+  width: 555px;
   height: 0px;
   position: absolute;
   left: 0px;
-  top: 33.99px;
+  top: 33px;
 }
-.kecepatan-angin {
+.kualitas-udara3 {
   flex-shrink: 0;
-  width: 605px;
-  height: 34px;
+  width: 555px;
+  height: 24.79px;
   position: static;
 }
-.kecepatan-angin2 {
+.kecepatan-angin {
   color: #181717;
   text-align: left;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - 329.16px);
-  top: 51.99px;
+  left: 0px;
+  top: 52px;
+  width: 131.47px;
+  height: 14.79px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-._6-km-jam {
-  color: #1e1e1e;
+._6-5-km-jam {
+  color: #181717;
   text-align: right;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - -198.84px);
-  top: 51.99px;
+  left: 459.47px;
+  top: 52px;
+  width: 89.32px;
+  height: 14.79px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.line-kecepatan {
+.line-92 {
   border-style: solid;
-  border-color: #7f807b;
+  border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 605px;
+  width: 555px;
   height: 0px;
   position: absolute;
-  left: calc(50% - 329.16px);
-  top: 85.99px;
+  left: 0px;
+  top: 76.79px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
 }
 .kelembapan {
   color: #181717;
   text-align: left;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - 329.16px);
-  top: 103.99px;
+  left: 0px;
+  top: 95.79px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.lembap {
-  color: #3b7de0;
+._45 {
+  color: #181717;
   text-align: right;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - -213.84px);
-  top: 103.99px;
+  left: 514px;
+  top: 95.79px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.line-kelembapan {
+.line-93 {
   border-style: solid;
-  border-color: #7f807b;
+  border-color: #000000;
   border-width: 1px 0 0 0;
-  width: 605px;
+  width: 555px;
   height: 0px;
   position: absolute;
-  left: calc(50% - 329.16px);
-  top: 137.99px;
+  left: 0px;
+  top: 128.79px;
 }
-.group-derajat {
-  width: 99.02px;
-  height: 109.35px;
-  position: static;
-}
-.berawan {
-  color: #000000;
-  text-align: center;
-  font: 500 19px "Poppins", sans-serif;
-  position: absolute;
-  left: 196.78px;
-  top: 353.35px;
-  width: 92.49px;
+.frame-2379 {
   display: flex;
+  flex-direction: row;
+  gap: 17px;
   align-items: center;
-  justify-content: center;
-}
-.angka26berawan {
-  color: #181717;
-  text-align: center;
-  font: 300 75px "Readex Pro", sans-serif;
+  justify-content: flex-start;
+  width: 226.84px;
+  height: 89.34px;
   position: absolute;
-  left: calc(50% - 589.22px);
-  top: 273px;
-  width: 92.49px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.frame-drajat {
-  position: absolute;
-  left: 284.91px;
-  top: 293.35px;
-  overflow: visible;
+  left: 128.4px;
+  top: 44.26px;
 }
 .partly-cloudy-day {
-  width: 248.09px;
-  height: 201px;
-  position: absolute;
-  left: 121.69px;
-  top: 67px;
+  flex-shrink: 0;
+  width: 121px;
+  height: 109px;
+  position: relative;
 }
-.kelembapan2 {
-  position: flex;
-  inset: 0;
-}
-.kotak-kelembapan {
-  background: #f7f7f7;
-  width: 1569px;
-  height: 409px;
-  position: absolute;
-  left: calc(50% - 786.5px);
-  top: 742px;
-}
-.ask {
-  position: absolute;
-  left: 1460.21px;
-  top: 770px;
-  overflow: visible;
-}
-.cuaca-lembap-dapat-meningkatkan-resiko-serangan-hama-dan-penyakit-pada-tanaman-padi-dan-jagung-periksa-tanaman-secara-rutin-dan-pertimbangkan-penggunaan-pestisida-atau-fungisida-pada-tanaman-padi-dan-jagung-jika-diperlukan {
-  color: #000000;
-  text-align: left;
-  font: 400 15px "Poppins", sans-serif;
-  position: absolute;
-  left: 842px;
-  top: 924px;
-  width: 631.52px;
-}
-.frame-kelembapan {
+.frame-2377 {
   display: flex;
-  flex-direction: column;
-  gap: 0px;
+  flex-direction: row;
+  gap: 7px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 295.01px;
-  height: 36.41px;
-  position: absolute;
-  left: 66px;
-  top: 758px;
+  flex-shrink: 0;
+  height: 58px;
+  position: relative;
 }
-.kelembapan3 {
+._23 {
+  color: #181717;
+  text-align: left;
+  font: 400 50px "Readex Pro", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2382 {
+  display: flex;
+  flex-direction: row;
+  gap: 1062px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1435.25px;
+  position: absolute;
+  left: 66.38px;
+  top: 17.21px;
+}
+._22-002 {
+  color: #181717;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  width: 47px;
+  height: 22.13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-2381 {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2372 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.real-feel {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-2369 {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._24 {
   color: #181717;
   text-align: left;
   font: 500 16px "Poppins", sans-serif;
   position: relative;
-  width: 270.94px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.jam20-152 {
+.vector2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2380 {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.vector3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._34 {
   color: #181717;
   text-align: left;
   font: 500 15px "Poppins", sans-serif;
   position: relative;
-  width: 76.47px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.lembap2 {
+.frame-295 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  position: absolute;
+  left: 897.71px;
+  top: 191px;
+}
+.jarak-pandang {
   color: #181717;
   text-align: left;
-  font: 500 16px "Poppins", sans-serif;
+  font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: calc(50% - -56.5px);
-  top: 888px;
-  width: 72.95px;
+  left: 0px;
+  top: 0px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.ellipse-2 {
-  background: #3b7de0;
-  border-radius: 50%;
-  width: 248px;
-  height: 228px;
+._11-km {
+  color: #181717;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: 118px;
-  top: 832px;
+  left: 511px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.ellipse-3 {
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #3b7de0;
-  border-width: 3px;
-  width: 248px;
-  height: 228px;
+.ketinggian-awan {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: 118.77px;
-  top: 832px;
+  left: 0px;
+  top: 52px;
+  width: 131.47px;
+  height: 14.79px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.line-8 {
-  border-style: solid;
-  border-color: #3b7de0;
-  border-width: 2px 0 0 0;
-  width: 90.22px;
-  height: 0px;
+._9000-m {
+  color: #181717;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-  left: 809px;
-  top: 877px;
+  left: 459.47px;
+  top: 52px;
+  width: 89.32px;
+  height: 14.79px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.tutupan-awan {
+  color: #181717;
+  text-align: left;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 95.79px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._30 {
+  color: #181717;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 514px;
+  top: 95.79px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rectangle-802 {
+  background: #f7f7f7;
+  width: 1540px;
+  height: 409px;
+  position: absolute;
+  left: 0px;
+  top: 434px;
+}
+.frame-23782 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  height: 138.34px;
+  position: absolute;
+  left: 66.38px;
+  top: 584.81px;
+}
+.frame-23792 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 226.84px;
+  height: 89.34px;
+  position: absolute;
+  left: 128.4px;
+  top: 478.26px;
+}
+.vector4 {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
-.prediksi-cuaca-prakiraan-cuaca-hari-ini {
+.frame-23822 {
+  display: flex;
+  flex-direction: row;
+  gap: 1062px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1435.25px;
+  position: absolute;
+  left: 66.38px;
+  top: 451.21px;
+}
+.vector5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2952 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  position: absolute;
+  left: 897.71px;
+  top: 625px;
+}
+.rectangle-803 {
+  background: #f7f7f7;
+  width: 1540px;
+  height: 409px;
+  position: absolute;
+  left: 0px;
+  top: 868px;
+}
+.frame-23783 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  height: 138.34px;
+  position: absolute;
+  left: 66.38px;
+  top: 1018.81px;
+}
+.frame-23793 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 226.84px;
+  height: 89.34px;
+  position: absolute;
+  left: 128.4px;
+  top: 912.26px;
+}
+.vector7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-23823 {
+  display: flex;
+  flex-direction: row;
+  gap: 1062px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1435.25px;
+  position: absolute;
+  left: 66.38px;
+  top: 885.21px;
+}
+.vector8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2953 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  position: absolute;
+  left: 897.71px;
+  top: 1059px;
+}
+.rectangle-804 {
+  background: #f7f7f7;
+  width: 1540px;
+  height: 409px;
+  position: absolute;
+  left: 0px;
+  top: 1302px;
+}
+.frame-23784 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  height: 138.34px;
+  position: absolute;
+  left: 66.38px;
+  top: 1452.81px;
+}
+.frame-23794 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 226.84px;
+  height: 89.34px;
+  position: absolute;
+  left: 128.4px;
+  top: 1346.26px;
+}
+.vector10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-23824 {
+  display: flex;
+  flex-direction: row;
+  gap: 1062px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1435.25px;
+  position: absolute;
+  left: 66.38px;
+  top: 1319.21px;
+}
+.vector11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2954 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 603.91px;
+  position: absolute;
+  left: 897.71px;
+  top: 1493px;
+}
+
+.prediksi-cuaca-prakiraan-cuaca-per-jam {
   color: #bfbfbf;
   text-align: left;
   font: 400 12px "Poppins", sans-serif;
@@ -566,8 +843,6 @@ cursor: pointer;
   align-items: center;
   justify-content: flex-start;
 }
-
-
 
 
 

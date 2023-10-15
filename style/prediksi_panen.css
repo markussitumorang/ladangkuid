@@ -1,0 +1,681 @@
+:root{
+    --light-color: #fefefe;
+    --green-color: #4B7D0E;
+    --greendark-color: #2D5200;
+    --orange-color: #F5B308;
+    --black-color: black;
+
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Header - Navigation */
+.desktop-nav{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  padding-right: 400;
+  
+}
+.desktop-nav .menu-items{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.desktop-nav .menu-items li{
+  margin: 0 22px;
+}
+
+.desktop-nav .menu-items li:nth-last-of-type(1){
+  margin-right:0;
+  font-weight: bold;
+}
+.desktop-nav .menu-items li a{
+  text-decoration:none;
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.btn-user img {
+width: 36px;
+height: 36px;
+flex-shrink: 0;
+stroke-width: 3px;
+stroke: #000;
+cursor: pointer;
+}
+
+/* frame1 */
+.prediksi-panen * {
+  box-sizing: border-box;
+}
+.prediksi-panen {
+  background: #ffffff;
+  width: 1534px;
+  height: 856px;
+  position: relative;
+  overflow: hidden;
+}
+.kotak-prediksi {
+  background: #f7f7f7;
+  width: 1639px;
+  height: 751px;
+  position: relative;
+}
+.frame-luas-prediksi {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 160px;
+}
+.frame-luas-maps {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-lokasi {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-luas-lahan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.luas-lahan {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form {
+  flex-shrink: 0;
+  width: 574px;
+  height: 44px;
+  position: static;
+}
+.kotak-masukan {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 2px;
+  width: 574px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 34px;
+}
+.hektare {
+  color: #000000;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 474.87px;
+  top: 45.14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.masukkan-luas-lahan-anda {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 13.54px;
+  top: 45.14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector {
+  position: absolute;
+  left: 539px;
+  top: 54px;
+  overflow: visible;
+}
+.frame-jenis-tanaman {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.masukkan-jenis-tanaman-anda {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 13.54px;
+  top: 45.14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-lokasi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.masukkan-lokasi {
+  color: #7f807b;
+  text-align: left;
+  font: 400 italic 15px "Poppins", sans-serif;
+  position: absolute;
+  left: 13.54px;
+  top: 45.14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.maps {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 574px;
+  height: 178px;
+  position: relative;
+  overflow: hidden;
+}
+.residential {
+  position: absolute;
+  left: 164.72px;
+  top: -21.02px;
+  overflow: visible;
+}
+.landcover {
+  position: absolute;
+  left: -10.15px;
+  top: -152.01px;
+  overflow: visible;
+}
+.water {
+  position: absolute;
+  left: -10.15px;
+  top: -152.01px;
+  overflow: visible;
+}
+.road-network-casing {
+  position: absolute;
+  left: -10.15px;
+  top: -152.01px;
+  overflow: visible;
+}
+.road-network {
+  position: absolute;
+  left: -10.15px;
+  top: -152.01px;
+  overflow: visible;
+}
+.border-other-dash {
+  position: absolute;
+  left: -10.15px;
+  top: -152.01px;
+  overflow: visible;
+}
+.city {
+  position: absolute;
+  inset: 0;
+}
+.tebing-tinggi {
+  color: var(--city, #6b7a85);
+  text-align: center;
+  font: var(--city, 400 11.77px "Inter", sans-serif);
+  position: absolute;
+  left: 441.39px;
+  top: 44.23px;
+  width: 43.76px;
+  height: 8.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.binjai {
+  color: var(--city, #6b7a85);
+  text-align: center;
+  font: var(--city, 400 11.77px "Inter", sans-serif);
+  position: absolute;
+  left: 306.72px;
+  top: -17.26px;
+  width: 17.27px;
+  height: 8.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pematang-siantar {
+  color: var(--city, #6b7a85);
+  text-align: center;
+  font: var(--city, 400 11.77px "Inter", sans-serif);
+  position: absolute;
+  left: 413.75px;
+  top: 125.44px;
+  width: 57.01px;
+  height: 8.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.medan {
+  color: var(--city, #6b7a85);
+  text-align: center;
+  font: var(--city, 400 11.77px "Inter", sans-serif);
+  position: absolute;
+  left: 344.83px;
+  top: -13.63px;
+  width: 22.46px;
+  height: 8.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subulussalam {
+  color: var(--city, #6b7a85);
+  text-align: center;
+  font: var(--city, 400 11.77px "Inter", sans-serif);
+  position: absolute;
+  left: 186.82px;
+  top: 195.61px;
+  width: 44.34px;
+  height: 8.06px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.full-geom-fill {
+  position: absolute;
+  left: -82.67px;
+  top: -224.53px;
+  overflow: visible;
+}
+.full-geom-line {
+  position: absolute;
+  left: 179.26px;
+  top: 47.64px;
+  overflow: visible;
+}
+.frame-prediksi {
+  background: #fde61c;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #4e4e4e;
+  border-width: 2px;
+  padding: 3px 78px 3px 78px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.prediksi {
+  color: #1c1a1a;
+  text-align: center;
+  font: 600 18px "Poppins", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-all-hasil-prediksi {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 793px;
+  top: 172px;
+}
+.frame-hasil-prediksi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.hasil-prediksi-hasil-panen {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-all-luas-lahan {
+  display: flex;
+  flex-direction: row;
+  gap: 303px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-luas-lahan {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.luas-lahan2 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jenis-tanaman {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lokasi {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-30-hektare {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._30-hektare {
+  color: #000000;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.padi {
+  color: #000000;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.desa-laubaleng-tanah-karo {
+  color: #000000;
+  text-align: right;
+  font: 500 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame-total {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.total-kg-padi-yang-anda-dapatkan-adalah {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-45000 {
+  background: #2d5200;
+  border-radius: 8px;
+  padding: 8px 71px 8px 71px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._45000-kg {
+  color: #ffffff;
+  text-align: center;
+  font: 700 18px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prediksi-panen2 {
+  color: #bfbfbf;
+  text-align: left;
+  font: 400 12px "Poppins", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: #4B7D0E;
+}
+
+.footer-top{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+  width: 100%;
+  padding-right: 0; 
+}
+
+.footer-top .menu-footer-top{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-top .menu-footer-top li{
+  margin: 0 22px;
+}
+
+.logo-footer{
+width: 270px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.line{
+
+      width: 1410.046px;
+      height: 1px;
+      background: white;
+      margin: 0 auto; /* Center the line horizontally */
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  padding:65px;
+  justify-content: space-between;
+  
+}
+
+.footer-content-1 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+.footer-content-1 p{
+  width: 534px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+text-transform: capitalize;
+padding-top: 10px;
+}
+
+.footer-content-2 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.footer-content-2 .footer-links {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 6px;
+
+}
+
+.footer-links li {
+ 
+  list-style: none;    
+
+}
+.footer-links li a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 290px;
+  
+}
+
+.footer-content-3 h2{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+.footer-content-3 p{
+  width: 371px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright{
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #2D5200;
+}
+.copyright h2{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FFF;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  
