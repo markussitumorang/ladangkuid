@@ -164,10 +164,242 @@ text-decoration: none;
 /* section container */
 .content-container {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     gap: 112px;
 }
+
+.right-container {
+    margin-top: 145px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    
+}
+.right-container h1{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 36px */
+text-transform: capitalize;
+
+}
+
+.pesanan-saya-container{
+display: flex;
+align-items: flex-start;
+gap: 10px;
+border-radius: 16px;
+border: 1px solid #A4A4A4;
+background: #F7F7F7;
+flex-direction: column;
+}
+.navbar-pesanan{
+background-color: #4B7D0E;
+stroke-width: 1px;
+stroke: #A4A4A4;
+width: 950px;
+height: 86px;
+position: flex;
+border-top-left-radius: 16px; 
+border-top-right-radius: 16px;
+
+}
+
+.navbar-pesanan ul{
+    display: flex;
+width: 868px;
+justify-content: center;
+align-items: center;
+gap: 57px;
+position: absolute;
+list-style: none;
+
+}
+.navbar-pesanan li h2{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 26px;
+margin-bottom:36px;
+cursor: pointer;
+
+}
+.list-produk{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: column
+    
+}
+.list-produk-container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-height: 800px; /* Sesuaikan dengan tinggi maksimum carousel */
+overflow-y: auto;
+position: relative;
+
+
+}
+
+
+.produk{
+display: flex;
+flex-direction: column;
+width: auto;
+height: auto;
+border-bottom: 1px solid #000;
+
+}
+
+.row-head{
+    display: inline-flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.row-head img{
+width: 118px;
+height: 105px;
+flex-shrink: 0;
+}
+
+.detail-column{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+}
+.detail-column h1{
+    color: #2E2727;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 24.2px */
+text-transform: capitalize;
+}
+
+.detail-column h2{
+    color: #717171;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 22px */
+text-transform: capitalize;
+}
+
+.detail-column h3{
+    color: #2E2727;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 22px */
+text-transform: lowercase;
+}
+
+.row-head h1{
+    color: #2E2727;
+text-align: right;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 24.2px */
+text-transform: capitalize;
+}
+
+.dot-line{
+    border-style: dashed;
+    border-color: #000;
+    border-width: 1px 0 0 0;
+    width: auto;
+    height: auto;
+    margin: 11px 0; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+.row-bottom {
+    display: inline-flex;
+align-items: center;
+gap: 115px;
+margin-bottom: 20px;
+}
+
+.row-bottom button{
+    display: flex;
+padding: 8px 21px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 9px;
+border: 2px solid #777;
+color: #2E2727;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 17.6px */
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.row-bottom h2{
+    color: #2E2727;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 22px */
+text-transform: capitalize;
+}
+
+.row-bottom h1{
+    color: #2E2727;
+text-align: right;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 28.6px */
+text-transform: capitalize;
+}
+
+.hijau {
+   
+display: flex;
+padding: 8px 21px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 9px;
+background: #4B7D0E;
+cursor: pointer;
+}
+
+.hijau h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+    text-transform: capitalize;
+}
+
+
 
 
 /* footer */
