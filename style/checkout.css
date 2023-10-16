@@ -538,15 +538,19 @@ body{
   position: absolute;
   left: 1108.5px;
   top: 353px;
+  cursor: pointer;
 }
 .buat-pesanan {
-  color: #ffffff;
+  background: #4b7d0e;
+  color: white;
+  border-style: none;
   text-align: right;
   font: 600 18px/150% "Poppins", sans-serif;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .dibawahnya {
   display: flex;
@@ -628,7 +632,7 @@ body{
   justify-content: flex-end;
 }
 .header2 {
-  position: absolute;
+  position: flex;
   inset: 0;
 }
 .kotak-pembayaran {

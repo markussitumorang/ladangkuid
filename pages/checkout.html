@@ -129,8 +129,18 @@
       <div class="cod">COD</div>
       <div class="cash-on-delivery">CASH ON DELIVERY</div>
       <div class="frame-buat-pesanan">
-        <div class="buat-pesanan">BUAT PESANAN</div>
+        <button onclick="sweetAlertFunc();" class="buat-pesanan">BUAT PESANAN</button>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>
+        const sweetAlertFunc = () =>{
+          Swal.fire(
+  'Pembayaran Selesai !',
+  'Pesanan Berhasil Dibuat',
+  'success'
+)
+        };
+      </script>
       <div class="dibawahnya">
         <div class="sub-total-untuk-produk">Sub Total Untuk Produk</div>
         <div class="total-ongkos-kirim">Total Ongkos Kirim</div>

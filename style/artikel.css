@@ -86,6 +86,7 @@ cursor: pointer;
 .artikel * {
   box-sizing: border-box;
 }
+
 .artikel {
   background: #ffffff;
   width: 1536px;
@@ -99,6 +100,28 @@ cursor: pointer;
   position: absolute;
   left: 0px;
   top: 107px;
+}
+.head-text{
+  border-radius: 8px;
+  padding: 11px 25px 11px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 344px;
+  
+  overflow: hidden;
+}
+.head-text h1{
+  color: #FFFBFB;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .kotak-pencarian {
   background: #ffffff;
