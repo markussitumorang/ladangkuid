@@ -50,6 +50,12 @@ body{
     margin-right:0;
     font-weight: bold;
 }
+.desktop-nav .menu-items li:nth-last-of-type(1) a:hover{
+    border-radius: 30px;
+    background: #4B7D0E;
+    color: white;
+    padding: 10px;
+}
 .desktop-nav .menu-items li a{
     text-decoration:none;
     color: var(--black-color);
@@ -62,6 +68,7 @@ body{
     border-radius: 20px;
     background: #4B7D0E;
     color: white;
+    padding: 10px;
   }
 
 a.btn-login {
@@ -72,7 +79,7 @@ a.btn-login {
 }
 
 a.btn-login:hover {
-    border-radius: 20px;
+    border-radius: 30px;
     background: #4B7D0E;
     color: white;
   }
@@ -660,3 +667,5 @@ font-weight: 700;
 line-height: normal;
 }
   
+/* responsive */
+
