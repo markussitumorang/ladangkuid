@@ -249,6 +249,10 @@ cursor: pointer;
 text-decoration: none ;
 color: #4b7d0e;
 }
+
+.baca-selengkapnya a:hover{
+  filter: brightness(0.5); 
+}
 .fotoartikel1 {
   border-radius: 8px;
   flex-shrink: 0;

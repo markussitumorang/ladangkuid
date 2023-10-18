@@ -168,13 +168,13 @@ cursor: pointer;
   text-align: right;
   font: 500 15px "Poppins", sans-serif;
   position: absolute;
-  left: 474.87px;
-  top: 45.14px;
+  left: 469.87px;
+  top: 37.14px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.masukkan-luas-lahan-anda {
+.masukkan-luas-lahan-anda input{
   color: #7f807b;
   text-align: left;
   font: 400 italic 15px "Poppins", sans-serif;
@@ -184,13 +184,11 @@ cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 400px;
+  border-style: none;
+  
 }
-.vector {
-  position: absolute;
-  left: 539px;
-  top: 54px;
-  overflow: visible;
-}
+
 .frame-jenis-tanaman {
   display: flex;
   flex-direction: column;
@@ -200,7 +198,7 @@ cursor: pointer;
   flex-shrink: 0;
   position: relative;
 }
-.masukkan-jenis-tanaman-anda {
+.masukkan-jenis-tanaman-anda input{
   color: #7f807b;
   text-align: left;
   font: 400 italic 15px "Poppins", sans-serif;
@@ -210,6 +208,8 @@ cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 400px;
+  border-style: none;
 }
 .frame-lokasi {
   display: flex;
@@ -220,7 +220,7 @@ cursor: pointer;
   flex-shrink: 0;
   position: relative;
 }
-.masukkan-lokasi {
+.masukkan-lokasi input{
   color: #7f807b;
   text-align: left;
   font: 400 italic 15px "Poppins", sans-serif;
@@ -230,6 +230,8 @@ cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 400px;
+  border-style: none;
 }
 .maps {
   background: #ffffff;
@@ -370,6 +372,10 @@ cursor: pointer;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  cursor: pointer;
+}
+.frame-prediksi:hover {
+  background: #e0ca1c;
 }
 .prediksi {
   color: #1c1a1a;

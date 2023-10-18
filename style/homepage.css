@@ -456,6 +456,10 @@ text-transform: capitalize;
 text-decoration: none;
 }
 
+.artikel-card a:hover{
+    filter: brightness(0.5); 
+}
+
 /* Footer */
  .footer-container {
     width: 100%;

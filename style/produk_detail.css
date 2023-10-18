@@ -145,6 +145,11 @@ cursor: pointer;
   top: 643px;
   cursor: pointer;
 }
+
+.beliproduk:hover {
+  filter: brightness(0.8); 
+}
+
 .produk-sejenis {
   color: #000000;
   text-align: center;
@@ -317,6 +322,9 @@ cursor: pointer;
   border-width: 1px;
   cursor: pointer;
 
+}
+.kotak-kranjang:hover{
+  filter: brightness(0.8); 
 }
 .kotak-kranjang a{
   color: #181717;

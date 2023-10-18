@@ -277,6 +277,9 @@ line-height: 150%; /* 27px */
 text-transform: capitalize;
 cursor: pointer;
 }
+.edit-biodata:hover{
+        filter: brightness(0.8); 
+}
 
 .left-container .out{
 margin-left: 444px;
@@ -290,6 +293,12 @@ border-radius: 8px;
 background: #F5B308;
 
 border: none;
+}
+
+.left-container .out:hover{
+    
+        filter: brightness(0.8); 
+    
 }
 
 .out a{

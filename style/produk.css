@@ -1439,6 +1439,16 @@ cursor: pointer;
    overflow: visible;
  }
 
+ .beli path{
+  cursor: pointer;
+  
+ }
+ .beli path:hover{
+  filter: brightness(0.8); 
+ }
+
+
+
 /* Footer */
 .footer-container {
   width: 100%;
