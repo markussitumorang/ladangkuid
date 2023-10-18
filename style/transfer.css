@@ -35,8 +35,6 @@ body{
    z-index: 200;
    width: 100%;
    padding-right: 400;
-   border-bottom: 2px solid #FFF; /* Menambahkan garis bawah */
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); /* Menambahkan bayangan */
 }
 .frame-keranjang {
   display: flex;
@@ -465,34 +463,33 @@ body{
   align-items: center;
   justify-content: flex-start;
 }
+.frame-co {
+  background: #F2F2F2;
+  flex-shrink: 0;
+  width: 1533px;
+  height: 2027px;
+  position: static;
+}
 .metode-pembayaran {
   width: 1317px;
-  height: 425px;
+  height: 925px;
   position: absolute;
   left: 61.5px;
   top: 1143px;
 }
-.kotak-cod {
+.rectangle-288 {
   background: #ffffff;
   width: 1416px;
-  height: 425px;
+  height: 765px;
   position: absolute;
   left: 1px;
   top: 0px;
 }
-.line-lurus2 {
-  border-style: solid;
-  border-color: #6d6d6d;
-  border-width: 1px 0 0 0;
-  width: 1416px;
-  height: 0px;
+.group-2323 {
   position: absolute;
-  left: 0px;
-  top: 141px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
+  inset: 0;
 }
-.line-putus-putus3 {
+.line-16 {
   border-style: dashed;
   border-color: #6d6d6d;
   border-width: 1px 0 0 0;
@@ -500,33 +497,11 @@ body{
   height: 0px;
   position: absolute;
   left: 0px;
-  top: 336px;
+  top: 652px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.cod {
-  color: #000000;
-  text-align: left;
-  font: 500 15px/150% "Poppins", sans-serif;
-  position: absolute;
-  left: 47px;
-  top: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.cash-on-delivery {
-  color: #000000;
-  text-align: left;
-  font: 500 15px/150% "Poppins", sans-serif;
-  position: absolute;
-  left: 213px;
-  top: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.frame-buat-pesanan {
+.frame-2393 {
   background: #4b7d0e;
   border-radius: 8px;
   padding: 10px;
@@ -537,10 +512,11 @@ body{
   justify-content: center;
   position: absolute;
   left: 1108.5px;
-  top: 353px;
+  top: 670px;
   cursor: pointer;
 }
-.frame-buat-pesanan:hover{
+
+.frame-2393:hover{
   filter: brightness(0.8);
 }
 .buat-pesanan {
@@ -565,7 +541,7 @@ body{
   height: 79px;
   position: absolute;
   left: 728px;
-  top: 170px;
+  top: 486px;
 }
 .sub-total-untuk-produk {
   color: #1e1e1e;
@@ -595,7 +571,7 @@ body{
   height: 79px;
   position: absolute;
   left: 1160px;
-  top: 170px;
+  top: 486px;
 }
 .rp-210-000 {
   color: #1e1e1e;
@@ -621,7 +597,7 @@ body{
   font: 500 15px/150% "Poppins", sans-serif;
   position: absolute;
   left: 728px;
-  top: 264px;
+  top: 580px;
 }
 .rp-240-000 {
   color: #1e1e1e;
@@ -629,7 +605,7 @@ body{
   font: 500 22px/150% "Poppins", sans-serif;
   position: absolute;
   left: 1135px;
-  top: 264px;
+  top: 580px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -638,7 +614,7 @@ body{
   position: flex;
   inset: 0;
 }
-.kotak-pembayaran {
+.rectangle-289 {
   background: #ffffff;
   width: 1316px;
   height: 67px;
@@ -657,7 +633,7 @@ body{
   align-items: center;
   justify-content: flex-start;
 }
-.line-lurus1 {
+.line-14 {
   border-style: solid;
   border-color: #6d6d6d;
   border-width: 1px 0 0 0;
@@ -681,8 +657,7 @@ body{
   left: 955px;
   top: 22px;
 }
-.cod2 {
-  background: #4b7d0e;
+.cod {
   border-radius: 4px;
   border-style: solid;
   border-color: #4b7d0e;
@@ -696,16 +671,24 @@ body{
   flex-shrink: 0;
   position: relative;
 }
-.c-od {
-  color: #ffffff;
+.cod:hover{
+  background-color: #4b7d0e;
+}
+.c-od a{
+  color: #000000;
   text-align: left;
   font: 500 15px/150% "Poppins", sans-serif;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-decoration: none;
+}
+.c-od a:hover{
+color: white;
 }
 .transfer-bank {
+  background: #4b7d0e;
   border-radius: 8px;
   border-style: solid;
   border-color: #4b7d0e;
@@ -719,22 +702,254 @@ body{
   flex-shrink: 0;
   position: relative;
 }
-.transfer-bank:hover{
-  background-color: #4b7d0e;
-}
-.transfer-bank2 a{
-  color: #000000;
+.transfer-bank2 {
+  color: #ffffff;
   text-align: left;
   font: 500 15px/150% "Poppins", sans-serif;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  text-decoration: none;
 }
-.transfer-bank2 a:hover{
-  color: #fefefe;
+.pilih-bank {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+.bank {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 196px;
+  height: 57px;
+  position: absolute;
+  left: 291px;
+  top: 103px;
+}
+.bank2 {
+  flex-shrink: 0;
+  width: 198px;
+  height: 57px;
+  position: static;
+}
+.bank-bri {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-10 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+}
+.rectangle-290 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.bri {
+  width: 58px;
+  height: 30px;
+  position: absolute;
+  left: 49px;
+  top: 14px;
+}
+.bank3 {
+  flex-shrink: 0;
+  width: 199px;
+  height: 57px;
+  position: static;
+}
+.bank-bni {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-102 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 85px;
+}
+.rectangle-2902 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 50px;
+  top: 65px;
+}
+.bni {
+  width: 58px;
+  height: 18px;
+  position: absolute;
+  left: 49px;
+  top: 84px;
+}
+.bank4 {
+  flex-shrink: 0;
+  width: 207px;
+  height: 57px;
+  position: static;
+}
+.bank-bca {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 147px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-103 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+.rectangle-2903 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 50px;
+  top: 130px;
+}
+.bca {
+  width: 57px;
+  height: 18px;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+.bank5 {
+  flex-shrink: 0;
+  width: 232px;
+  height: 57px;
+  position: static;
+}
+.bank-mandiri {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-104 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 215px;
+}
+.rectangle-2904 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 50px;
+  top: 195px;
+}
+.mandiri {
+  width: 57px;
+  height: 16.66px;
+  position: absolute;
+  left: 50px;
+  top: 212px;
+}
+.bank-bsi {
+  color: #000000;
+  text-align: left;
+  font: 500 15px/150% "Poppins", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 277px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-105 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 280px;
+}
+.rectangle-2905 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 50px;
+  top: 260px;
+}
+.bsi {
+  width: 56px;
+  height: 34.64px;
+  position: absolute;
+  left: 51px;
+  top: 271px;
+}
+.footer-user {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 425px;
+  position: relative;
+}
+
+
 
 /* Footer */
 .footer-container {
